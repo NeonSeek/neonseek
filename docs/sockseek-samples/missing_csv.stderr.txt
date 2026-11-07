@@ -1,0 +1,6 @@
+[cli] Starting CLI session in local mode
+[soulseek] Using local files Soulseek client.
+[soulseek] Reading tags from mock files dir, this may take a while. Use --mock-files-no-read-tags if tags are not needed.
+[001] ExtractJob: CSV: Input: <WORK>\csv\does-not-exist.csv
+[001] ExtractJob: CSV: Failed: <WORK>\csv\does-not-exist.csv
+  Reason:    CSV file '<WORK>/csv/does-not-exist.csv' not found

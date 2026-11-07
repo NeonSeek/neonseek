@@ -1,0 +1,67 @@
+[   0.12] [cli] Starting CLI session in local mode
+[   0.17] [debug] [soulseek] Creating Soulseek client instance...
+[   0.17] [soulseek] Using local files Soulseek client.
+[   0.17] [soulseek] Reading tags from mock files dir, this may take a while. Use --mock-files-no-read-tags if tags are not needed.
+[   0.22] [debug] [jobs] Soulseek services initialized
+[   0.24] [001] ExtractJob: pending: <WORK>\csv\ratelimit.csv
+[   0.25] [001] ExtractJob: CSV: Input: <WORK>\csv\ratelimit.csv
+[   0.27] [001] ExtractJob: CSV: Using columns: artist:"Artist", album:"Album", title:"Title", length:"Length".
+[   0.27] [debug] [jobs] [1] ExtractJob: extracted 6 jobs, 6 songs: <WORK>\csv\ratelimit.csv
+[   0.28] [002] Job List: pending: ratelimit
+[   0.28] [002] Job List: running: ratelimit
+[   0.33] [cli] Downloading 6 tracks:
+[   0.33] [003] SongJob: pending: Alpha Artist - First Song
+[   0.34] [003] SongJob: waiting search: Alpha Artist - First Song
+[   0.34] [003] SongJob: searching: Alpha Artist - First Song
+[   0.36] [debug] [soulseek] 2 results found: Alpha Artist - First Song (60s)
+[   0.38] [debug] [soulseek] Downloading: Alpha Artist - First Song (60s) from 'local\Alpha Artist\First Album\01 - First Song.flac' to '<WORK>\out\ratelimit_v\.sockseek-staging\91e819e09646442883d47cac0edecc8e\01 - First Song.flac.incomplete'
+[   0.38] [003] SongJob: downloading: Alpha Artist - First Song: local\Alpha Artist\First Album\01 - First Song.flac
+[   0.39] [004] SongJob: pending: Beta Artist - Second Song
+[   0.39] [004] SongJob: waiting search: Beta Artist - Second Song
+[   0.39] [004] SongJob: searching: Beta Artist - Second Song
+[   0.39] [005] SongJob: pending: Delta Artist - Fourth Song
+[   0.39] [debug] [soulseek] 1 results found: Beta Artist - Second Song (50s)
+[   0.39] [005] SongJob: waiting search: Delta Artist - Fourth Song
+[   0.39] [debug] [soulseek] Downloading: Beta Artist - Second Song (50s) from 'local\Beta Artist\Second Album\02 - Second Song.wav' to '<WORK>\out\ratelimit_v\.sockseek-staging\94bdc59722bd4cc584ab0a71f3bc5e01\02 - Second Song.wav.incomplete'
+[   0.39] [005] SongJob: rate limited: Delta Artist - Fourth Song
+[   0.39] [004] SongJob: downloading: Beta Artist - Second Song: local\Beta Artist\Second Album\02 - Second Song.wav
+[   0.39] [006] SongJob: pending: Tenth Song
+[   0.39] [006] SongJob: waiting search: Tenth Song
+[   0.39] [007] SongJob: pending: Xi Artist - Same Song
+[   0.39] [007] SongJob: waiting search: Xi Artist - Same Song
+[   0.39] [008] SongJob: pending: Xi Artist - Same Song
+[   0.39] [008] SongJob: waiting search: Xi Artist - Same Song
+[   0.41] [debug] [jobs] [3] SongJob: download succeeded from local\Alpha Artist\First Album\01 - First Song.flac to '<WORK>\out\ratelimit_v\.sockseek-staging\91e819e09646442883d47cac0edecc8e\01 - First Song.flac': Alpha Artist - First Song (60s)
+[   0.42] [debug] [jobs] [4] SongJob: download succeeded from local\Beta Artist\Second Album\02 - Second Song.wav to '<WORK>\out\ratelimit_v\.sockseek-staging\94bdc59722bd4cc584ab0a71f3bc5e01\02 - Second Song.wav': Beta Artist - Second Song (50s)
+[   0.42] [003] SongJob: succeeded: Alpha Artist - First Song: local\Alpha Artist\First Album\01 - First Song.flac
+[   0.42] [004] SongJob: succeeded: Beta Artist - Second Song: local\Beta Artist\Second Album\02 - Second Song.wav
+[  15.22] [006] SongJob: searching: Tenth Song
+[  15.22] [005] SongJob: searching: Delta Artist - Fourth Song
+[  15.22] [debug] [soulseek] 1 results found: Tenth Song (43s)
+[  15.22] [debug] [soulseek] Downloading: Tenth Song (43s) from 'local\Kappa Artist\Tenth Album\10 - Tenth Song.flac' to '<WORK>\out\ratelimit_v\.sockseek-staging\dced496eb20f4b60b6ea485e3022bf47\10 - Tenth Song.flac.incomplete'
+[  15.24] [007] SongJob: rate limited: Xi Artist - Same Song
+[  15.24] [debug] [soulseek] 1 results found: Delta Artist - Fourth Song (45s)
+[  15.24] [006] SongJob: downloading: Tenth Song: local\Kappa Artist\Tenth Album\10 - Tenth Song.flac
+[  15.24] [debug] [soulseek] Downloading: Delta Artist - Fourth Song (45s) from 'local\Delta Artist\Fourth Album\04 - Fourth Song.aiff' to '<WORK>\out\ratelimit_v\.sockseek-staging\7d4638a810e84053b2467f3e8bb45226\04 - Fourth Song.aiff.incomplete'
+[  15.24] [005] SongJob: downloading: Delta Artist - Fourth Song: local\Delta Artist\Fourth Album\04 - Fourth Song.aiff
+[  15.24] [debug] [jobs] [6] SongJob: download succeeded from local\Kappa Artist\Tenth Album\10 - Tenth Song.flac to '<WORK>\out\ratelimit_v\.sockseek-staging\dced496eb20f4b60b6ea485e3022bf47\10 - Tenth Song.flac': Tenth Song (43s)
+[  15.24] [006] SongJob: succeeded: Tenth Song: local\Kappa Artist\Tenth Album\10 - Tenth Song.flac
+[  15.27] [debug] [jobs] [5] SongJob: download succeeded from local\Delta Artist\Fourth Album\04 - Fourth Song.aiff to '<WORK>\out\ratelimit_v\.sockseek-staging\7d4638a810e84053b2467f3e8bb45226\04 - Fourth Song.aiff': Delta Artist - Fourth Song (45s)
+[  15.27] [005] SongJob: succeeded: Delta Artist - Fourth Song: local\Delta Artist\Fourth Album\04 - Fourth Song.aiff
+[  30.24] [007] SongJob: searching: Xi Artist - Same Song
+[  30.24] [008] SongJob: searching: Xi Artist - Same Song
+[  30.24] [debug] [soulseek] 1 results found: Xi Artist - Same Song (40s)
+[  30.24] [debug] [soulseek] 1 results found: Xi Artist - Same Song (62s)
+[  30.24] [debug] [soulseek] Downloading: Xi Artist - Same Song (40s) from 'local\Xi Artist\Short Album\13 - Same Song.flac' to '<WORK>\out\ratelimit_v\.sockseek-staging\954d0f8ee5244ed388c16af8fb3c8263\13 - Same Song.flac.incomplete'
+[  30.24] [debug] [soulseek] Downloading: Xi Artist - Same Song (62s) from 'local\Xi Artist\Long Album\13 - Same Song.flac' to '<WORK>\out\ratelimit_v\.sockseek-staging\60608737be5741da803c1f2b7375d1dc\13 - Same Song.flac.incomplete'
+[  30.24] [007] SongJob: downloading: Xi Artist - Same Song: local\Xi Artist\Short Album\13 - Same Song.flac
+[  30.24] [008] SongJob: downloading: Xi Artist - Same Song: local\Xi Artist\Long Album\13 - Same Song.flac
+[  30.25] [debug] [jobs] [7] SongJob: download succeeded from local\Xi Artist\Short Album\13 - Same Song.flac to '<WORK>\out\ratelimit_v\.sockseek-staging\954d0f8ee5244ed388c16af8fb3c8263\13 - Same Song.flac': Xi Artist - Same Song (40s)
+[  30.25] [007] SongJob: succeeded: Xi Artist - Same Song: local\Xi Artist\Short Album\13 - Same Song.flac
+[  30.25] [core] Downloaded 5 of Total 6 (83.33%)
+[  30.25] [debug] [jobs] [8] SongJob: download succeeded from local\Xi Artist\Long Album\13 - Same Song.flac to '<WORK>\out\ratelimit_v\.sockseek-staging\60608737be5741da803c1f2b7375d1dc\13 - Same Song.flac': Xi Artist - Same Song (62s)
+[  30.25] [008] SongJob: succeeded: Xi Artist - Same Song: local\Xi Artist\Long Album\13 - Same Song.flac
+[  30.25] [002] Job List: succeeded: ratelimit
+[  30.25] [debug] [jobs] Exiting RunAsync
+[  30.27] [cli] Completed: 6 succeeded, 0 failed.
+[  30.27] [debug] [cli] Exiting CLI session in local mode with code 0 (Success)

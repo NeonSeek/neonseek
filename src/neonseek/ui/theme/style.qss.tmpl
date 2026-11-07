@@ -1,0 +1,486 @@
+/* one template for every theme. colors come only from theme token placeholders
+   (bg.base is written bg_base), never as values here. font sizes and spacing are
+   size tokens that follow the text size setting, only borders and corners stay fixed. */
+
+* {
+    font-family: "${font_family}";
+    font-size: ${font_size};
+    outline: none;
+}
+
+QWidget {
+    background-color: ${bg_base};
+    color: ${text_primary};
+    selection-background-color: ${accent_primary};
+    selection-color: ${text_on_accent};
+}
+
+QMainWindow, QDialog {
+    background-color: ${bg_base};
+}
+
+/* panels */
+
+QFrame[role="panel"] {
+    background-color: ${bg_surface};
+    border: 1px solid ${border};
+    border-radius: 0px;
+}
+
+QWidget[role="bar"] {
+    background-color: ${bg_base};
+    border-bottom: 1px solid ${border};
+}
+
+QWidget[role="surface"] {
+    background-color: ${bg_surface};
+}
+
+/* a section of a page takes the color of the page, its title sits on a thin line (D-194) */
+QWidget[role="clear"] {
+    background-color: transparent;
+}
+
+QWidget[role="sectionhead"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid ${border};
+}
+
+/* labels */
+
+QLabel {
+    background-color: transparent;
+    color: ${text_primary};
+}
+
+QLabel[role="section"] {
+    color: ${text_muted};
+    font-weight: bold;
+}
+
+QLabel[role="logo"] {
+    color: ${accent_primary};
+    font-size: ${font_size_large};
+    font-weight: bold;
+}
+
+QLabel[role="title"] {
+    color: ${text_primary};
+    font-size: ${font_size_large};
+    font-weight: bold;
+}
+
+QLabel[role="muted"] {
+    color: ${text_muted};
+}
+
+QLabel[role="counter"] {
+    background-color: ${chip_bg};
+    color: ${text_primary};
+    padding: ${size_1} ${size_6};
+    border-radius: 2px;
+}
+
+QLabel[role="locked"] {
+    color: ${text_muted};
+}
+
+QLabel[role="waiting"] {
+    color: ${state_warning};
+    border: 1px solid ${state_warning};
+    padding: ${size_1} ${size_6};
+}
+
+QLabel[role="hint"] {
+    color: ${text_muted};
+    padding: ${size_24};
+}
+
+/* buttons */
+
+QPushButton, QToolButton {
+    background-color: transparent;
+    color: ${text_primary};
+    border: 1px solid ${border};
+    border-radius: 0px;
+    padding: ${size_5} ${size_12};
+    font-weight: bold;
+}
+
+QPushButton:hover, QToolButton:hover {
+    border-color: ${accent_secondary};
+    color: ${accent_secondary};
+}
+
+QPushButton:pressed, QToolButton:pressed {
+    background-color: ${bg_elevated};
+}
+
+QPushButton:focus, QToolButton:focus {
+    border-color: ${accent_secondary};
+}
+
+/* a button that does not work now still looks like a button, with its frame */
+QPushButton:disabled, QToolButton:disabled {
+    color: ${text_muted};
+    border-color: ${border};
+}
+
+QPushButton[primary="true"] {
+    background-color: ${accent_primary};
+    color: ${text_on_accent};
+    border: 1px solid ${accent_primary};
+}
+
+QPushButton[primary="true"]:hover {
+    border-color: ${accent_secondary};
+    color: ${text_on_accent};
+}
+
+QPushButton[primary="true"]:disabled {
+    background-color: ${bg_elevated};
+    color: ${text_muted};
+    border-color: ${border};
+}
+
+/* the small help button of a section (D-195) */
+QPushButton[role="help"] {
+    padding: ${size_2} ${size_8};
+    font-weight: normal;
+    color: ${text_muted};
+}
+
+QPushButton[role="help"]:hover {
+    color: ${accent_secondary};
+}
+
+QToolButton[flat="true"] {
+    border: 1px solid transparent;
+    padding: ${size_2};
+}
+
+QToolButton[flat="true"]:hover {
+    border-color: ${accent_secondary};
+}
+
+/* inputs */
+
+QLineEdit, QComboBox, QSpinBox, QPlainTextEdit[role="input"] {
+    background-color: ${bg_base};
+    color: ${text_primary};
+    border: 1px solid ${border};
+    border-radius: 0px;
+    padding: ${size_4} ${size_6};
+}
+
+QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QPlainTextEdit[role="input"]:focus {
+    border-color: ${accent_secondary};
+}
+
+QLineEdit:disabled, QComboBox:disabled, QSpinBox:disabled {
+    color: ${text_muted};
+    border-color: ${bg_elevated};
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: ${size_20};
+}
+
+QComboBox::down-arrow {
+    image: url("${icon_chevron_down}");
+    width: ${size_12};
+    height: ${size_12};
+}
+
+QComboBox QAbstractItemView {
+    background-color: ${bg_elevated};
+    color: ${text_primary};
+    border: 1px solid ${border};
+    selection-background-color: ${accent_primary};
+    selection-color: ${text_on_accent};
+}
+
+QCheckBox, QRadioButton {
+    background-color: transparent;
+    spacing: ${size_6};
+}
+
+QRadioButton::indicator {
+    width: ${size_12};
+    height: ${size_12};
+    border: 1px solid ${border};
+    border-radius: 7px;
+    background-color: ${bg_base};
+}
+
+QRadioButton::indicator:checked {
+    background-color: ${accent_primary};
+    border-color: ${accent_primary};
+}
+
+QScrollArea {
+    background-color: ${bg_surface};
+    border: 1px solid ${border};
+}
+
+/* the content of a window that scrolls only when the window is small (D-252) */
+QScrollArea[role="plain"] {
+    background: transparent;
+    border: none;
+}
+
+QWidget[role="plain"] {
+    background: transparent;
+}
+
+QTabWidget::pane {
+    border: 1px solid ${border};
+    background-color: ${bg_surface};
+}
+
+QTabBar::tab {
+    background-color: ${bg_base};
+    color: ${text_muted};
+    border: 1px solid ${border};
+    border-bottom: none;
+    padding: ${size_6} ${size_14};
+    font-weight: bold;
+}
+
+QTabBar::tab:selected {
+    background-color: ${bg_surface};
+    color: ${text_primary};
+    border-top: 2px solid ${accent_primary};
+}
+
+QWizard, QWizardPage {
+    background-color: ${bg_base};
+}
+
+QCheckBox::indicator {
+    width: ${size_14};
+    height: ${size_14};
+    border: 1px solid ${border};
+    background-color: ${bg_base};
+}
+
+QCheckBox::indicator:hover {
+    border-color: ${accent_secondary};
+}
+
+QCheckBox::indicator:checked {
+    background-color: ${accent_primary};
+    border-color: ${accent_primary};
+    image: url("${icon_check}");
+}
+
+QCheckBox::indicator:disabled {
+    border-color: ${bg_elevated};
+}
+
+/* lists and tables */
+
+QListWidget, QTableView, QTreeView {
+    background-color: ${bg_surface};
+    alternate-background-color: ${bg_surface};
+    color: ${text_primary};
+    border: none;
+}
+
+QListWidget::item {
+    border: none;
+    border-left: 2px solid transparent;
+}
+
+QListWidget::item:hover {
+    background-color: ${bg_elevated};
+}
+
+QListWidget::item:selected {
+    background-color: ${bg_elevated};
+    color: ${text_primary};
+    border-left: 2px solid ${accent_primary};
+}
+
+/* a plain list of texts with room around each row (D-194) */
+QListWidget[role="roomy"]::item {
+    padding: ${size_5} ${size_8};
+}
+
+QListWidget QWidget {
+    background-color: transparent;
+}
+
+/* the manual (D-182): contents with the open chapter marked, the text in the panel color */
+
+QTreeWidget[role="toc"] {
+    background-color: ${bg_surface};
+    border: 1px solid ${border};
+    padding: ${size_4} 0;
+}
+
+QTreeWidget[role="toc"]::item {
+    padding: ${size_4} ${size_6};
+    border-left: 3px solid transparent;
+}
+
+QTreeWidget[role="toc"]::item:hover {
+    background-color: ${bg_elevated};
+}
+
+QTreeWidget[role="toc"]::item:selected {
+    background-color: ${bg_elevated};
+    color: ${text_primary};
+    border-left: 3px solid ${accent_primary};
+}
+
+QTextBrowser[role="manual"] {
+    background-color: ${bg_surface};
+    color: ${text_primary};
+    border: 1px solid ${border};
+    selection-background-color: ${chip_bg};
+    selection-color: ${text_primary};
+}
+
+QTableView {
+    gridline-color: ${border};
+}
+
+QTableView::item {
+    border-bottom: 1px solid ${bg_elevated};
+    padding: ${size_0} ${size_6};
+}
+
+/* hover is painted by the table for the whole row, selection is the whole row too */
+QTableView::item:selected {
+    background-color: ${chip_bg};
+    color: ${text_primary};
+    border-top: 1px solid ${accent_secondary};
+    border-bottom: 1px solid ${accent_secondary};
+}
+
+QHeaderView {
+    background-color: ${bg_base};
+    border: none;
+}
+
+QHeaderView::section {
+    background-color: ${bg_base};
+    color: ${text_muted};
+    border: none;
+    border-bottom: 1px solid ${border};
+    padding: ${size_5} ${size_6};
+    font-weight: bold;
+}
+
+QTableCornerButton::section {
+    background-color: ${bg_base};
+    border: none;
+}
+
+/* log console */
+
+QPlainTextEdit[role="console"], QTextEdit[role="console"] {
+    background-color: ${bg_base};
+    color: ${text_primary};
+    border: none;
+    padding: ${size_4};
+}
+
+/* progress */
+
+QProgressBar {
+    background-color: ${bg_base};
+    color: ${text_primary};
+    border: 1px solid ${border};
+    border-radius: 0px;
+    text-align: center;
+    min-height: ${size_14};
+    max-height: ${size_14};
+}
+
+QProgressBar::chunk {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0,
+        stop: 0 ${accent_primary}, stop: 1 ${accent_secondary});
+}
+
+/* splitters and scroll bars */
+
+QSplitter::handle {
+    background-color: ${bg_base};
+}
+
+QSplitter::handle:hover {
+    background-color: ${accent_secondary};
+}
+
+QScrollBar:vertical {
+    background-color: ${bg_surface};
+    width: ${size_10};
+    margin: ${size_0};
+}
+
+QScrollBar:horizontal {
+    background-color: ${bg_surface};
+    height: ${size_10};
+    margin: ${size_0};
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    background-color: ${bg_elevated};
+    min-height: ${size_24};
+    min-width: ${size_24};
+}
+
+QScrollBar::handle:vertical:hover, QScrollBar::handle:horizontal:hover {
+    background-color: ${accent_primary};
+}
+
+QScrollBar::add-line, QScrollBar::sub-line {
+    width: ${size_0};
+    height: ${size_0};
+}
+
+QScrollBar::add-page, QScrollBar::sub-page {
+    background: none;
+}
+
+/* menus, tooltips, message boxes */
+
+QMenu {
+    background-color: ${bg_elevated};
+    color: ${text_primary};
+    border: 1px solid ${border};
+    padding: ${size_2};
+}
+
+QMenu::item {
+    padding: ${size_5} ${size_18};
+}
+
+/* the icon away from the left edge of the menu, halfway to its text */
+QMenu::icon {
+    left: ${size_8};
+}
+
+QMenu::item:selected {
+    background-color: ${accent_primary};
+    color: ${text_on_accent};
+}
+
+QMenu::item:disabled {
+    color: ${text_muted};
+}
+
+QToolTip {
+    background-color: ${bg_elevated};
+    color: ${text_primary};
+    border: 1px solid ${accent_secondary};
+    padding: ${size_4};
+}
+
+QMessageBox QLabel {
+    color: ${text_primary};
+}

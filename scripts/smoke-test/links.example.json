@@ -1,0 +1,11 @@
+{
+  "note": "the owner's manual test as a template. copy it OUTSIDE the repository, replace every <...> with a real link or number and run smoke-test.ps1 -LinksFile <copy>. the script does not start while a <...> is left. tracks is an exact count of different tracks, min_tracks a minimum, entries an exact count of places in the list with repeats (use it for lists that may have the same track twice), more_entries_than a lower bound for them. download_one marks the one collection whose first track is downloaded.",
+  "links": [
+    { "name": "Apple Music album", "url": "<link to an apple music album>", "tracks": "<number of tracks>" },
+    { "name": "YouTube playlist", "url": "<link to a youtube playlist>", "entries": "<number of videos>" },
+    { "name": "SoundCloud set", "url": "<link to a soundcloud set>", "tracks": "<number of tracks>" },
+    { "name": "TIDAL playlist", "url": "<link to a tidal playlist>", "tracks": "<number of tracks>" },
+    { "name": "TIDAL album", "url": "<link to a tidal album>", "tracks": "<number of tracks>", "download_one": true },
+    { "name": "Apple Music playlist", "url": "<link to a real apple music playlist>", "min_tracks": 1 }
+  ]
+}

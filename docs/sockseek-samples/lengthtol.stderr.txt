@@ -1,0 +1,22 @@
+[cli] Starting CLI session in local mode
+[soulseek] Using local files Soulseek client.
+[soulseek] Reading tags from mock files dir, this may take a while. Use --mock-files-no-read-tags if tags are not needed.
+[001] ExtractJob: CSV: Input: <WORK>\csv\lengthtol.csv
+[001] ExtractJob: CSV: Using columns: artist:"Artist", album:"Album", title:"Title", length:"Length".
+[002] Job List: running: lengthtol
+[cli] Downloading 4 tracks:
+[003] SongJob: searching: Alpha Artist - First Song
+[003] SongJob: failed [No search results]: Alpha Artist - First Song
+    Error: No Soulseek file results found.
+[004] SongJob: searching: Alpha Artist - First Song
+[005] SongJob: searching: Alpha Artist - First Song
+[006] SongJob: searching: Alpha Artist - First Song
+[006] SongJob: failed [No search results]: Alpha Artist - First Song
+    Error: No Soulseek file results found.
+[004] SongJob: downloading: Alpha Artist - First Song: local\Alpha Artist\First Album\01 - First Song.flac
+[005] SongJob: downloading: Alpha Artist - First Song: local\Alpha Artist\First Album\01 - First Song.flac
+[004] SongJob: succeeded: Alpha Artist - First Song: local\Alpha Artist\First Album\01 - First Song.flac
+[005] SongJob: succeeded: Alpha Artist - First Song: local\Alpha Artist\First Album\01 - First Song.flac
+[002] Job List: partial: lengthtol
+    Error: Some child jobs completed and some failed or were cancelled.
+[cli] Completed: 2 succeeded, 2 failed.

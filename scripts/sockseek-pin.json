@@ -1,0 +1,10 @@
+{
+  "version": "3.0.5",
+  "tag": "v3.0.5",
+  "commit": "8d1d8153df6cb86a353ca379051d9ca7b6997a89",
+  "asset": "sockseek_3.0.5_win-x64.zip",
+  "url": "https://github.com/fiso64/sockseek/releases/download/v3.0.5/sockseek_3.0.5_win-x64.zip",
+  "sha256": "1b5c1189dcfc24cc9fea22dc67a58b7a5f0a127d0367355cf2a8718100044802",
+  "license": "AGPL-3.0",
+  "source": "https://github.com/fiso64/sockseek/tree/8d1d8153df6cb86a353ca379051d9ca7b6997a89"
+}

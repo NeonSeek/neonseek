@@ -1,0 +1,36 @@
+{
+  "note": "public equivalents of the links from the owner's manual test (D-255). tracks and min_tracks count different tracks, entries and more_entries_than the places in the list with repeats (D-259). exact counts for albums and sets, a minimum for playlists that their curators change. checked live on 2026-11-07 with neonseek add.",
+  "links": [
+    {
+      "name": "Apple Music album",
+      "url": "https://music.apple.com/us/album/discovery/697194953",
+      "tracks": 14
+    },
+    {
+      "name": "Apple Music playlist",
+      "url": "https://music.apple.com/us/playlist/daft-punk-essentials/pl.74657640b88c4587a426160f7441de46",
+      "min_tracks": 10
+    },
+    {
+      "name": "YouTube playlist (over 200)",
+      "url": "https://www.youtube.com/playlist?list=UU_kRDKYrUlrbtrSiyu5Tflg",
+      "more_entries_than": 200
+    },
+    {
+      "name": "SoundCloud set",
+      "url": "https://soundcloud.com/daftpunkofficialmusic/sets/discovery-8",
+      "tracks": 14
+    },
+    {
+      "name": "TIDAL playlist",
+      "url": "https://tidal.com/playlist/abd35446-6a67-4f2b-9f92-0636742c63cb",
+      "min_tracks": 20
+    },
+    {
+      "name": "TIDAL album",
+      "url": "https://tidal.com/album/161010",
+      "tracks": 16,
+      "download_one": true
+    }
+  ]
+}

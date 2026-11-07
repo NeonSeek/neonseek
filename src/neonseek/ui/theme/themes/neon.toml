@@ -1,0 +1,30 @@
+# default theme: the owner's palette, magenta and teal on dark violet.
+# the hex values are approximate, adjust them here. mauve lightened from #A8477F to #BC5E94,
+# the original was too dark on the panels (PLAN.md section 9).
+name = "Neon"
+glow = true
+dark = true
+border = "#1F8F8C"
+
+[bg]
+base = "#1A1230"
+surface = "#241A42"
+elevated = "#2E2152"
+
+[text]
+primary = "#EDE9F7"
+muted = "#9A8FB8"
+on_accent = "#FFFFFF"
+
+[accent]
+primary = "#D6278F"
+secondary = "#5FE3D3"
+
+[chip]
+bg = "#6B1F6E"
+
+[state]
+success = "#5FE3D3"
+queued = "#BC5E94"
+warning = "#F2C14E"
+error = "#FF5C5C"

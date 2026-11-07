@@ -1,0 +1,17 @@
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.iss text eol=crlf
+*.bat text eol=crlf
+*.ico binary
+*.png binary
+*.jpg binary
+*.flac binary
+*.wav binary
+*.ttf binary
+
+# keep spike csv inputs byte-exact
+docs/sockseek-samples/*.csv -text
+
+# keep csv fixtures byte-exact (encoding, bom, line endings are part of the test)
+tests/fixtures/**/*.csv -text
+tests/fixtures/**/*.tsv -text

@@ -1,0 +1,189 @@
+{
+  "request": {
+    "path": "/albums/0NeonFxAlb000000000001/tracks",
+    "params": {
+      "limit": "5"
+    }
+  },
+  "status": 200,
+  "body": {
+    "href": "https://api.spotify.com/v1/albums/0NeonFxAlb000000000001/tracks?offset=0&limit=5",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000001"
+            },
+            "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000001",
+            "id": "0NeonFxArt000000000001",
+            "name": "Fixture Artist 01",
+            "type": "artist",
+            "uri": "spotify:artist:0NeonFxArt000000000001"
+          }
+        ],
+        "available_markets": [
+          "AR",
+          "AU"
+        ],
+        "disc_number": 1,
+        "duration_ms": 211017,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0NeonFxTrk000000000001"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0NeonFxTrk000000000001",
+        "id": "0NeonFxTrk000000000001",
+        "name": "Album Gęślą 01",
+        "preview_url": null,
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:0NeonFxTrk000000000001",
+        "is_local": false
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000001"
+            },
+            "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000001",
+            "id": "0NeonFxArt000000000001",
+            "name": "Fixture Artist 01",
+            "type": "artist",
+            "uri": "spotify:artist:0NeonFxArt000000000001"
+          }
+        ],
+        "available_markets": [
+          "AR",
+          "AU"
+        ],
+        "disc_number": 1,
+        "duration_ms": 222586,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0NeonFxTrk000000000002"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0NeonFxTrk000000000002",
+        "id": "0NeonFxTrk000000000002",
+        "name": "Fixture Track 01",
+        "preview_url": null,
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:0NeonFxTrk000000000002",
+        "is_local": false
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000001"
+            },
+            "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000001",
+            "id": "0NeonFxArt000000000001",
+            "name": "Fixture Artist 01",
+            "type": "artist",
+            "uri": "spotify:artist:0NeonFxArt000000000001"
+          }
+        ],
+        "available_markets": [
+          "AR",
+          "AU"
+        ],
+        "disc_number": 1,
+        "duration_ms": 247930,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0NeonFxTrk000000000003"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0NeonFxTrk000000000003",
+        "id": "0NeonFxTrk000000000003",
+        "name": "Utwór Jaźń 02",
+        "preview_url": null,
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:0NeonFxTrk000000000003",
+        "is_local": false
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000001"
+            },
+            "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000001",
+            "id": "0NeonFxArt000000000001",
+            "name": "Fixture Artist 01",
+            "type": "artist",
+            "uri": "spotify:artist:0NeonFxArt000000000001"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000002"
+            },
+            "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000002",
+            "id": "0NeonFxArt000000000002",
+            "name": "Fixture Artist 02",
+            "type": "artist",
+            "uri": "spotify:artist:0NeonFxArt000000000002"
+          }
+        ],
+        "available_markets": [
+          "AR",
+          "AU"
+        ],
+        "disc_number": 1,
+        "duration_ms": 209318,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0NeonFxTrk000000000004"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0NeonFxTrk000000000004",
+        "id": "0NeonFxTrk000000000004",
+        "name": "Utwór Jaźń 03",
+        "preview_url": null,
+        "track_number": 4,
+        "type": "track",
+        "uri": "spotify:track:0NeonFxTrk000000000004",
+        "is_local": false
+      },
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000001"
+            },
+            "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000001",
+            "id": "0NeonFxArt000000000001",
+            "name": "Fixture Artist 01",
+            "type": "artist",
+            "uri": "spotify:artist:0NeonFxArt000000000001"
+          }
+        ],
+        "available_markets": [
+          "AR",
+          "AU"
+        ],
+        "disc_number": 1,
+        "duration_ms": 158943,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0NeonFxTrk000000000005"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0NeonFxTrk000000000005",
+        "id": "0NeonFxTrk000000000005",
+        "name": "Fixture Track 04",
+        "preview_url": null,
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:0NeonFxTrk000000000005",
+        "is_local": false
+      }
+    ],
+    "limit": 5,
+    "next": "https://api.spotify.com/v1/albums/0NeonFxAlb000000000001/tracks?offset=5&limit=5",
+    "offset": 0,
+    "previous": null,
+    "total": 10
+  }
+}

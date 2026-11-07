@@ -1,0 +1,28 @@
+# green crt terminal with an amber accent
+name = "Phosphor"
+glow = true
+dark = true
+border = "#1F5A32"
+
+[bg]
+base = "#050A06"
+surface = "#0B140D"
+elevated = "#122016"
+
+[text]
+primary = "#B6FFC8"
+muted = "#5FA873"
+on_accent = "#03140A"
+
+[accent]
+primary = "#33FF66"
+secondary = "#FFB000"
+
+[chip]
+bg = "#12301C"
+
+[state]
+success = "#33FF66"
+queued = "#5FA873"
+warning = "#FFB000"
+error = "#FF5C5C"

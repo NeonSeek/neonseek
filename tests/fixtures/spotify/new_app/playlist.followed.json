@@ -1,0 +1,43 @@
+{
+  "request": {
+    "path": "/playlists/0NeonFixturePlaylist02",
+    "params": {}
+  },
+  "status": 200,
+  "body": {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0NeonFixturePlaylist02"
+    },
+    "followers": {
+      "href": null,
+      "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/0NeonFixturePlaylist02",
+    "id": "0NeonFixturePlaylist02",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/fixture",
+        "width": 640
+      }
+    ],
+    "name": "Followed Playlist 2",
+    "owner": {
+      "display_name": "Other User 1",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/other-user-1"
+      },
+      "href": "https://api.spotify.com/v1/users/other-user-1",
+      "id": "other-user-1",
+      "type": "user",
+      "uri": "spotify:user:other-user-1"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAANeonFixtureSnapshot020000000",
+    "type": "playlist",
+    "uri": "spotify:playlist:0NeonFixturePlaylist02"
+  }
+}

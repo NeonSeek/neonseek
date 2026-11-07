@@ -1,0 +1,28 @@
+# cold navy with sky blue and violet
+name = "Ice"
+glow = true
+dark = true
+border = "#2B4A63"
+
+[bg]
+base = "#0B1622"
+surface = "#12202F"
+elevated = "#1A2D40"
+
+[text]
+primary = "#E6F1FA"
+muted = "#8AA4B8"
+on_accent = "#06202E"
+
+[accent]
+primary = "#38BDF8"
+secondary = "#A78BFA"
+
+[chip]
+bg = "#1E3A52"
+
+[state]
+success = "#4ADE80"
+queued = "#8AA4B8"
+warning = "#FBBF24"
+error = "#F87171"

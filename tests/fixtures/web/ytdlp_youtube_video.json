@@ -1,0 +1,17 @@
+{
+  "_comment": "made up single video in the form yt-dlp 2026.8.19 returns with process=False. youtube music fills artists, track and album for many music videos.",
+  "id": "fixtureSolo",
+  "title": "Neon Fixture Artist - Solo Song (Official Audio)",
+  "channel": "Neon Fixture Artist",
+  "channel_id": "UCfixture000000000000001",
+  "uploader": "Neon Fixture Artist",
+  "duration": 222,
+  "artists": ["Neon Fixture Artist"],
+  "creators": ["Neon Fixture Artist"],
+  "track": "Solo Song",
+  "album": "Solo Fixture Album",
+  "release_year": 2024,
+  "webpage_url": "https://www.youtube.com/watch?v=fixtureSolo",
+  "extractor": "youtube",
+  "extractor_key": "Youtube"
+}

@@ -1,0 +1,71 @@
+{
+  "request": {
+    "path": "/albums/0NeonFxAlb000000000002/tracks",
+    "params": {
+      "limit": "50"
+    }
+  },
+  "status": 200,
+  "body": {
+    "href": "https://api.spotify.com/v1/albums/0NeonFxAlb000000000002/tracks?offset=0&limit=50",
+    "items": [
+      {
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000003"
+            },
+            "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000003",
+            "id": "0NeonFxArt000000000003",
+            "name": "Fixture Artist 03",
+            "type": "artist",
+            "uri": "spotify:artist:0NeonFxArt000000000003"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000004"
+            },
+            "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000004",
+            "id": "0NeonFxArt000000000004",
+            "name": "Fixture Artist 04",
+            "type": "artist",
+            "uri": "spotify:artist:0NeonFxArt000000000004"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000005"
+            },
+            "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000005",
+            "id": "0NeonFxArt000000000005",
+            "name": "Fixture Artist 05",
+            "type": "artist",
+            "uri": "spotify:artist:0NeonFxArt000000000005"
+          }
+        ],
+        "available_markets": [
+          "AR",
+          "AU"
+        ],
+        "disc_number": 1,
+        "duration_ms": 274925,
+        "explicit": false,
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0NeonFxTrk000000000011"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0NeonFxTrk000000000011",
+        "id": "0NeonFxTrk000000000011",
+        "name": "Fixture Album 02",
+        "preview_url": null,
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:0NeonFxTrk000000000011",
+        "is_local": false
+      }
+    ],
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 1
+  }
+}

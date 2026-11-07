@@ -1,0 +1,68 @@
+{
+  "_comment": "made up playlist in the form yt-dlp 2026.8.19 returns with extract_flat=in_playlist (docs/playlist-sources-notes.md). no real videos, channels or accounts.",
+  "_type": "playlist",
+  "id": "PLfixture00000000000000000000000001",
+  "title": "Fixture Playlist",
+  "availability": "public",
+  "channel": "Fixture Owner",
+  "channel_id": "UCfixtureowner0000000001",
+  "uploader": "Fixture Owner",
+  "uploader_id": "@fixtureowner",
+  "playlist_count": 7,
+  "extractor": "youtube:tab",
+  "extractor_key": "YoutubeTab",
+  "webpage_url": "https://www.youtube.com/playlist?list=PLfixture00000000000000000000000001",
+  "thumbnails": [
+    {"url": "https://i.ytimg.com/vi/fixtureVid1/hqdefault.jpg", "width": 168, "height": 94},
+    {"url": "https://i.ytimg.com/vi/fixtureVid1/maxresdefault.jpg", "width": 1280, "height": 720}
+  ],
+  "entries": [
+    {
+      "_type": "url", "ie_key": "Youtube", "id": "fixtureVid1",
+      "url": "https://www.youtube.com/watch?v=fixtureVid1",
+      "title": "Neon Fixture Artist - First Song (Official Video)",
+      "duration": 201, "channel": "Neon Fixture Artist", "channel_id": "UCfixture000000000000001",
+      "uploader": "Neon Fixture Artist", "view_count": 1000
+    },
+    {
+      "_type": "url", "ie_key": "Youtube", "id": "fixtureVid2",
+      "url": "https://www.youtube.com/watch?v=fixtureVid2",
+      "title": "Second Song - Remastered 2011",
+      "duration": 185, "channel": "Fixture Band - Topic", "channel_id": "UCfixture000000000000002",
+      "uploader": "Fixture Band - Topic", "view_count": 2000
+    },
+    {
+      "_type": "url", "ie_key": "Youtube", "id": "fixtureVid3",
+      "url": "https://www.youtube.com/watch?v=fixtureVid3",
+      "title": "Third Song",
+      "duration": 240, "channel": "FixtureSingerVEVO", "channel_id": "UCfixture000000000000003",
+      "uploader": "FixtureSingerVEVO", "view_count": 3000
+    },
+    {
+      "_type": "url", "ie_key": "Youtube", "id": "fixtureVid4",
+      "url": "https://www.youtube.com/watch?v=fixtureVid4",
+      "title": null, "duration": null, "channel": null, "channel_id": null,
+      "uploader": null, "view_count": null
+    },
+    {
+      "_type": "url", "ie_key": "Youtube", "id": "fixtureVid5",
+      "url": "https://www.youtube.com/watch?v=fixtureVid5",
+      "title": "Fixture DJ - Live Set 2025 [4K]",
+      "duration": 7261, "channel": "Fixture Festival", "channel_id": "UCfixture000000000000005",
+      "uploader": "Fixture Festival", "view_count": 5000
+    },
+    {
+      "_type": "url", "ie_key": "Youtube", "id": "fixtureVid6",
+      "url": "https://www.youtube.com/watch?v=fixtureVid6",
+      "title": "Fixture Artist ft. Guest Singer - Duet Song [FREE DL]",
+      "duration": 199, "channel": "Fixture Uploads", "channel_id": "UCfixture000000000000006",
+      "uploader": "Fixture Uploads", "view_count": 6000
+    },
+    {
+      "_type": "url", "ie_key": "Youtube", "id": "fixtureVid7",
+      "url": "https://www.youtube.com/watch?v=fixtureVid7",
+      "title": "[Deleted video]",
+      "duration": null, "channel": null, "channel_id": null, "uploader": null, "view_count": null
+    }
+  ]
+}

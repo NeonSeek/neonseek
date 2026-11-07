@@ -1,0 +1,120 @@
+NeonSeek - third party licenses
+===============================
+
+NeonSeek itself is licensed under the GNU General Public License, version 3
+or (at your option) any later version (GPL-3.0-or-later). The full text is in
+the LICENSE file. The icons in src/neonseek/ui/theme/icons and the themes in
+src/neonseek/ui/theme/themes are part of NeonSeek and use the same license.
+
+Every part listed below has a license that is compatible with
+GPL-3.0-or-later. The versions are the ones pinned in uv.lock. The full
+license text of each Python package is in its .dist-info folder after
+installation (uv sync). The installed program carries this list together
+with the full text of every license in THIRD_PARTY_LICENSES.txt, made by
+scripts/collect_licenses.py (texts that no package carries are in the
+licenses folder of this repository).
+
+
+1. Sockseek (separate program, not a dependency)
+------------------------------------------------
+
+  Sockseek 3.0.5                AGPL-3.0
+  https://github.com/fiso64/sockseek
+
+  NeonSeek starts Sockseek as a separate process and contains none of its
+  code. The binary is not part of this repository. scripts/fetch_sockseek.ps1
+  downloads the pinned release (version and sha256 in
+  scripts/sockseek-pin.json) together with its LICENSE file and writes
+  vendor/sockseek/SOURCE.txt, which points to the source code of exactly
+  that version. The installer ships the same LICENSE and SOURCE.txt next to
+  sockseek.exe (in _internal\vendor\sockseek of the installed program).
+
+
+2. Bundled with NeonSeek
+------------------------
+
+  JetBrains Mono 2.304          OFL-1.1
+  https://github.com/JetBrains/JetBrainsMono
+  Font files in src/neonseek/ui/theme/fonts, license in OFL.txt in the same
+  folder, source in SOURCE.txt.
+
+
+3. Python packages used at run time
+-----------------------------------
+
+  PySide6-Essentials 6.12.0     LGPL-3.0-only (chosen from LGPL-3.0-only OR
+  shiboken6 6.12.0              GPL-2.0-only OR GPL-3.0-only)
+  https://pyside.org, Qt for Python by The Qt Company.
+  The wheels contain the Qt 6 libraries, also used under LGPL-3.0. They stay
+  separate, replaceable files in the installed program (the Qt6*.dll files
+  and plugins in _internal\PySide6). The wheels carry no LGPL text, so the
+  full text is in licenses/LGPL-3.0.txt. Source of PySide6 and shiboken6:
+  https://code.qt.io/cgit/pyside/pyside-setup.git/tag/?h=v6.12.0
+  Source of Qt: https://download.qt.io/official_releases/qt/6.12/
+  Libraries inside Qt: https://doc.qt.io/qt-6/licenses-used-in-qt.html
+
+  httpx 0.28.1                  BSD-3-Clause      https://github.com/encode/httpx
+  httpcore 1.0.9                BSD-3-Clause      https://github.com/encode/httpcore
+  h11 0.16.0                    MIT               https://github.com/python-hyper/h11
+  anyio 4.15.1                  MIT               https://github.com/agronholm/anyio
+  idna 3.20                     BSD-3-Clause      https://github.com/kjd/idna
+  certifi 2026.7.22             MPL-2.0           https://github.com/certifi/python-certifi
+  typing_extensions 4.16.0      PSF-2.0           https://github.com/python/typing_extensions
+  keyring 25.7.0                MIT               https://github.com/jaraco/keyring
+  jaraco.classes 3.4.0          MIT               https://github.com/jaraco/jaraco.classes
+  jaraco.context 6.1.2          MIT               https://github.com/jaraco/jaraco.context
+  jaraco.functools 4.6.0        MIT               https://github.com/jaraco/jaraco.functools
+  more-itertools 11.1.0         MIT               https://github.com/more-itertools/more-itertools
+  pywin32-ctypes 0.2.3          BSD-3-Clause      https://github.com/enthought/pywin32-ctypes
+  mutagen 1.48.1                GPL-2.0-or-later  https://github.com/quodlibet/mutagen
+                                (used under GPL-3.0-or-later)
+  platformdirs 4.12.3           MIT               https://github.com/tox-dev/platformdirs
+  yt-dlp 2026.8.19              Unlicense         https://github.com/yt-dlp/yt-dlp
+                                (public domain, used as a library without its
+                                optional extras; NeonSeek reads only the track
+                                lists of YouTube and SoundCloud with it and never
+                                downloads audio or video)
+
+  The installed program also contains the Python 3.12 runtime (PSF-2.0,
+  https://www.python.org) with the libraries built into it: OpenSSL
+  (Apache-2.0), expat, libffi, zlib, libmpdec, bzip2, SQLite (public
+  domain) and xz (public domain). Their texts are in the LICENSE.txt of
+  Python and in licenses/python-incorporated-software.txt. The Microsoft
+  Visual C++ runtime (vcruntime140*.dll, ucrtbase.dll) comes with Python
+  under Microsoft's terms for redistributable code.
+
+  PyInstaller 6.22.3            GPL-2.0-or-later with the bootloader exception
+  https://pyinstaller.org
+  NeonSeek.exe and neonseek-cli.exe start through the PyInstaller
+  bootloader. The exception allows shipping it with a program under any
+  license.
+
+
+4. Development and build tools (not shipped with NeonSeek)
+----------------------------------------------------------
+
+  pytest 9.1.1                  MIT
+  pytest-qt 4.5.0               MIT
+  ruff 0.16.10                  MIT
+  pluggy 1.6.0                  MIT
+  iniconfig 2.3.1               MIT
+  packaging 26.3                Apache-2.0 OR BSD-2-Clause
+  Pygments 2.21.0               BSD-2-Clause
+  colorama 0.4.6                BSD-3-Clause
+  PyInstaller 6.22.3            GPL-2.0-or-later with the bootloader exception
+                                (only the bootloader ships, see section 3)
+  pyinstaller-hooks-contrib 2026.8  Apache-2.0 OR GPL-2.0-or-later
+  altgraph 0.17.5               MIT
+  pefile 2024.8.26              MIT
+  setuptools 84.0.0             MIT
+  Inno Setup 6                  Inno Setup License (builds the installer,
+                                https://jrsoftware.org/files/is/license.txt)
+
+
+Trademarks
+----------
+
+Spotify, Soulseek, rekordbox, Apple Music, iTunes, YouTube, SoundCloud and
+TIDAL are trademarks of their owners. NeonSeek is not affiliated with,
+endorsed by or sponsored by Spotify, Soulseek, AlphaTheta, Apple, Google,
+SoundCloud or TIDAL.

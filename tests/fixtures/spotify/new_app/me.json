@@ -1,0 +1,23 @@
+{
+  "request": {
+    "path": "/me",
+    "params": {}
+  },
+  "status": 200,
+  "body": {
+    "account_id": "fixture-account",
+    "display_name": "Test User",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/user/neonseek-test-user"
+    },
+    "followers": {
+      "href": null,
+      "total": 0
+    },
+    "href": "https://api.spotify.com/v1/users/neonseek-test-user",
+    "id": "neonseek-test-user",
+    "images": [],
+    "type": "user",
+    "uri": "spotify:user:neonseek-test-user"
+  }
+}

@@ -1,0 +1,57 @@
+[cli] Starting CLI session in local mode
+[soulseek] Using local files Soulseek client.
+[soulseek] Reading tags from mock files dir, this may take a while. Use --mock-files-no-read-tags if tags are not needed.
+[001] ExtractJob: CSV: Input: <WORK>\csv\main.csv
+[001] ExtractJob: CSV: Using columns: artist:"Artist", album:"Album", title:"Title", length:"Length".
+[001] ExtractJob: CSV: Couldn't parse track length "" with format "s"
+[002] Job List: running: main
+[cli] Downloading 15 tracks:
+[003] SongJob: searching: Alpha Artist - First Song
+[004] SongJob: searching: Beta Artist - Second Song
+[005] SongJob: searching: Gamma Artist - Third Song
+[006] SongJob: searching: Delta Artist - Fourth Song
+[007] SongJob: searching: Epsilon Artist - Fifth Song
+[008] SongJob: searching: Zeta Artist - Sixth Song
+[009] SongJob: searching: Eta Artist - Seventh Song
+[010] SongJob: searching: Theta Artist - Eighth Song
+[011] SongJob: searching: Iota Artist - Ninth Song
+[012] SongJob: searching: Tenth Song
+[013] SongJob: searching: Lambda Artist - Missing Song
+[014] SongJob: searching: Mu Artist - Twelfth Song
+[015] SongJob: searching: Xi Artist - Same Song
+[011] SongJob: downloading: Iota Artist - Ninth Song: local\Iota Artist\Ninth Album\09 - Ninth Song.flac
+[003] SongJob: downloading: Alpha Artist - First Song: local\Alpha Artist\First Album\01 - First Song.flac
+[004] SongJob: downloading: Beta Artist - Second Song: local\Beta Artist\Second Album\02 - Second Song.wav
+[006] SongJob: downloading: Delta Artist - Fourth Song: local\Delta Artist\Fourth Album\04 - Fourth Song.aiff
+[012] SongJob: downloading: Tenth Song: local\Kappa Artist\Tenth Album\10 - Tenth Song.flac
+[014] SongJob: downloading: Mu Artist - Twelfth Song: local\Mu Artist\Twelfth Album\12 - Twelfth Song.flac
+[016] SongJob: searching: Xi Artist - Same Song
+[015] SongJob: downloading: Xi Artist - Same Song: local\Xi Artist\Short Album\13 - Same Song.flac
+[016] SongJob: downloading: Xi Artist - Same Song: local\Xi Artist\Long Album\13 - Same Song.flac
+[017] SongJob: searching: Omikron Artist - Café Ünïcode Song
+[009] SongJob: failed [No search results]: Eta Artist - Seventh Song
+    Error: No Soulseek file results found.
+[013] SongJob: failed [No search results]: Lambda Artist - Missing Song
+    Error: No Soulseek file results found.
+[010] SongJob: failed [No search results]: Theta Artist - Eighth Song
+    Error: No Soulseek file results found.
+[005] SongJob: failed [No search results]: Gamma Artist - Third Song
+    Error: No Soulseek file results found.
+[007] SongJob: failed [No search results]: Epsilon Artist - Fifth Song
+    Error: No Soulseek file results found.
+[017] SongJob: downloading: Omikron Artist - Café Ünïcode Song: local\Omikron Artist\Zażółć Album\14 - Café Ünïcode Song.flac
+[008] SongJob: failed [No search results]: Zeta Artist - Sixth Song
+    Error: No Soulseek file results found.
+[core] Downloaded 0, Failed 5 of Total 15 (33.33%)
+[014] SongJob: succeeded: Mu Artist - Twelfth Song: local\Mu Artist\Twelfth Album\12 - Twelfth Song.flac
+[011] SongJob: succeeded: Iota Artist - Ninth Song: local\Iota Artist\Ninth Album\09 - Ninth Song.flac
+[003] SongJob: succeeded: Alpha Artist - First Song: local\Alpha Artist\First Album\01 - First Song.flac
+[012] SongJob: succeeded: Tenth Song: local\Kappa Artist\Tenth Album\10 - Tenth Song.flac
+[016] SongJob: succeeded: Xi Artist - Same Song: local\Xi Artist\Long Album\13 - Same Song.flac
+[006] SongJob: succeeded: Delta Artist - Fourth Song: local\Delta Artist\Fourth Album\04 - Fourth Song.aiff
+[004] SongJob: succeeded: Beta Artist - Second Song: local\Beta Artist\Second Album\02 - Second Song.wav
+[015] SongJob: succeeded: Xi Artist - Same Song: local\Xi Artist\Short Album\13 - Same Song.flac
+[017] SongJob: succeeded: Omikron Artist - Café Ünïcode Song: local\Omikron Artist\Zażółć Album\14 - Café Ünïcode Song.flac
+[002] Job List: partial: main
+    Error: Some child jobs completed and some failed or were cancelled.
+[cli] Completed: 9 succeeded, 6 failed.

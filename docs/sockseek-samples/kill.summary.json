@@ -1,0 +1,14 @@
+{
+ "name": "kill",
+ "exit_code": 1,
+ "killed": true,
+ "seconds": 6.03,
+ "output_files": [
+  ".sockseek-staging\\2a4c5ca373f64b9eaeb28d6ed7dfc526\\13 - Same Song.flac.incomplete",
+  "2.flac",
+  "3.wav",
+  "4.aiff",
+  "5.flac",
+  "6.flac"
+ ]
+}

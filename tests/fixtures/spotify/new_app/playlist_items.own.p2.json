@@ -1,0 +1,114 @@
+{
+  "request": {
+    "path": "/playlists/0NeonFixturePlaylist01/items",
+    "params": {
+      "offset": "4",
+      "limit": "2"
+    }
+  },
+  "status": 200,
+  "body": {
+    "href": "https://api.spotify.com/v1/playlists/0NeonFixturePlaylist01/items?offset=4&limit=2",
+    "items": [
+      {
+        "added_at": "2025-03-07T12:00:00Z",
+        "added_by": {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/neonseek-test-user"
+          },
+          "href": "https://api.spotify.com/v1/users/neonseek-test-user",
+          "id": "neonseek-test-user",
+          "type": "user",
+          "uri": "spotify:user:neonseek-test-user"
+        },
+        "is_local": false,
+        "primary_color": null,
+        "item": {
+          "is_playable": true,
+          "explicit": false,
+          "type": "track",
+          "episode": false,
+          "track": true,
+          "album": {
+            "is_playable": true,
+            "type": "album",
+            "album_type": "album",
+            "href": "https://api.spotify.com/v1/albums/0NeonFxAlb000000000012",
+            "id": "0NeonFxAlb000000000012",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273000000000000000000000022",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02000000000000000000000023",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851000000000000000000000024",
+                "width": 64
+              }
+            ],
+            "name": "Fixture Album 08",
+            "release_date": "2019-02-08",
+            "release_date_precision": "day",
+            "uri": "spotify:album:0NeonFxAlb000000000012",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000018"
+                },
+                "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000018",
+                "id": "0NeonFxArt000000000018",
+                "name": "Fixture Artist 18",
+                "type": "artist",
+                "uri": "spotify:artist:0NeonFxArt000000000018"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/0NeonFxAlb000000000012"
+            },
+            "total_tracks": 11
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000018"
+              },
+              "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000018",
+              "id": "0NeonFxArt000000000018",
+              "name": "Fixture Artist 18",
+              "type": "artist",
+              "uri": "spotify:artist:0NeonFxArt000000000018"
+            }
+          ],
+          "disc_number": 1,
+          "track_number": 1,
+          "duration_ms": 221892,
+          "external_ids": {
+            "isrc": "QZNFX2600011"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/0NeonFxTrk000000000021"
+          },
+          "href": "https://api.spotify.com/v1/tracks/0NeonFxTrk000000000021",
+          "id": "0NeonFxTrk000000000021",
+          "name": "Fixture Track 19",
+          "uri": "spotify:track:0NeonFxTrk000000000021",
+          "is_local": false
+        },
+        "video_thumbnail": {
+          "url": null
+        }
+      }
+    ],
+    "limit": 2,
+    "next": null,
+    "offset": 4,
+    "previous": "https://api.spotify.com/v1/playlists/0NeonFixturePlaylist01/items?offset=2&limit=2",
+    "total": 5
+  }
+}

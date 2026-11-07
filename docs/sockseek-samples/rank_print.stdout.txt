@@ -1,0 +1,32 @@
+[cli] Starting CLI session in local mode
+[soulseek] Using local files Soulseek client.
+[soulseek] Reading tags from mock files dir, this may take a while. Use --mock-files-no-read-tags if tags are not needed.
+[001] ExtractJob: CSV: Input: <WORK>\csv\rank.csv
+[001] ExtractJob: CSV: Using columns: artist:"Artist", album:"Album", title:"Title", length:"Length".
+[002] Job List: running: rank
+[003] SongJob: searching: Alpha Artist - Song Aaa
+[004] SongJob: searching: Alpha Artist - Song Bbb
+[005] SongJob: searching: Alpha Artist - Song Ccc
+[005] SongJob: succeeded: Alpha Artist - Song Ccc
+[004] SongJob: succeeded: Alpha Artist - Song Bbb
+[003] SongJob: succeeded: Alpha Artist - Song Aaa
+[002] Job List: succeeded: rank
+Results for Alpha Artist - Song Aaa (60s):
+
+[60s /44.1kHz521kbps/ 3.7MB] (0.00MB/s) local\Alpha Artist\First Album\01 - Song Aaa.flac (nec:Satisfied, prf:Satisfied)
+[60s /44.1kHz1411kbps/10.1MB] (0.00MB/s) local\Alpha Artist\First Album\01 - Song Aaa.wav (nec:Satisfied, prf:Format fails)
+Total: 2
+
+
+Results for Alpha Artist - Song Bbb (61s):
+
+[61s /44.1kHz1411kbps/10.3MB] (0.00MB/s) local\Alpha Artist\Bbb Album\01 - Song Bbb.wav (nec:Satisfied, prf:Format fails)
+[61s /44.1kHz521kbps/ 3.8MB] (0.00MB/s) local\Alpha Artist\random rips\01 - Song Bbb.flac (nec:Satisfied, prf:StrictAlbum fails)
+Total: 2
+
+
+Results for Alpha Artist - Song Ccc (62s):
+
+[62s /96kHz1451kbps/10.7MB] (0.00MB/s) local\Alpha Artist\Ccc Album\01 - Song Ccc.flac (nec:Satisfied, prf:SampleRate fails)
+[62s /44.1kHz1411kbps/10.4MB] (0.00MB/s) local\Alpha Artist\Ccc Album\01 - Song Ccc.wav (nec:Satisfied, prf:Format fails)
+Total: 2

@@ -1,0 +1,55 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# build output
+build/
+dist/
+
+# bundled sockseek binary, fetched by scripts/fetch_sockseek.ps1
+vendor/sockseek/*
+!vendor/sockseek/.gitkeep
+
+# local scratch
+.staging/
+*.incomplete
+*.log
+.env
+
+# editors / os
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# user manual pdfs, built by scripts/build_manual.py
+docs/manual/pdf/
+
+# a packed copy of the manual, made by hand, not part of the repo
+docs/manual.zip
+
+# app data and anything with logins, never part of the repo
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+settings.toml
+window-state.json
+.env.*
+*.pem
+*.key
+*.pfx
+
+# every pdf is build output
+*.pdf
+
+# local tools that stay on this machine (personal data scan)
+.local/

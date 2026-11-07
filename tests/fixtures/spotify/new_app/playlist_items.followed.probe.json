@@ -1,0 +1,15 @@
+{
+  "request": {
+    "path": "/playlists/0NeonFixturePlaylist02/items",
+    "params": {
+      "limit": "1"
+    }
+  },
+  "status": 403,
+  "body": {
+    "error": {
+      "status": 403,
+      "message": "Forbidden"
+    }
+  }
+}

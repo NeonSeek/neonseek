@@ -1,0 +1,59 @@
+[project]
+name = "neonseek"
+version = "0.1.0"
+description = "Downloads track lists from Spotify, Apple Music, YouTube, SoundCloud, TIDAL or CSV from Soulseek in lossless quality for rekordbox."
+requires-python = ">=3.12,<3.13"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE", "THIRD_PARTY_LICENSES"]
+dependencies = [
+    "httpx>=0.28.1",
+    "keyring>=25.7.0",
+    "mutagen>=1.47",
+    "platformdirs>=4.12.3",
+    "pyside6-essentials>=6.12.0",
+    "yt-dlp==2026.8.19",
+]
+
+[project.scripts]
+neonseek = "neonseek.cli:main"
+
+[project.gui-scripts]
+neonseek-gui = "neonseek.ui.app:main"
+
+[dependency-groups]
+# packaging (phase 4): pyinstaller ships only its bootloader, GPL-2.0-or-later with an exception
+build = [
+    "pyinstaller>=6.22.3",
+]
+dev = [
+    "pytest>=8.3",
+    "pytest-qt>=4.5.0",
+    "ruff>=0.8",
+]
+
+[tool.uv]
+# uv sync installs the build tools too, so the packaging tests run everywhere
+default-groups = ["dev", "build"]
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.format]
+# keep code samples in plan and notes verbatim
+exclude = ["*.md"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "sockseek: needs the pinned sockseek binary in vendor/sockseek (run scripts/fetch_sockseek.ps1)",
+]

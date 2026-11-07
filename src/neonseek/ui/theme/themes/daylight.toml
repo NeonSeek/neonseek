@@ -1,0 +1,28 @@
+# light theme: the colors of neon, darkened for a light background
+name = "Daylight"
+glow = false
+dark = false
+border = "#B9ADD2"
+
+[bg]
+base = "#F4F1FA"
+surface = "#FCFBFE"
+elevated = "#E9E3F5"
+
+[text]
+primary = "#1A1230"
+muted = "#5E5478"
+on_accent = "#FFFFFF"
+
+[accent]
+primary = "#B81F7A"
+secondary = "#0F7A77"
+
+[chip]
+bg = "#EAD9EE"
+
+[state]
+success = "#0F7A77"
+queued = "#8A3A6A"
+warning = "#8A5A00"
+error = "#C62828"

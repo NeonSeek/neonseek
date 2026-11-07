@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- neonseek icon, full version (48 px and up): a magnifying glass with a vinyl record as its lens -->
+  <!-- radii step by 8 units, so the grooves line up with the pixels at 64 px -->
+  <rect width="256" height="256" rx="36" fill="#1A1230"/>
+  <!-- handle under the ring, at 45 degrees from the lens center -->
+  <rect x="70" y="-16" width="99" height="32" rx="16" fill="#D6278F" transform="translate(104 104) rotate(45)"/>
+  <!-- ring -->
+  <circle cx="104" cy="104" r="74" fill="none" stroke="#D6278F" stroke-width="20"/>
+  <!-- glass, a dark gap away from the ring -->
+  <circle cx="104" cy="104" r="56" fill="#5FE3D3"/>
+  <!-- two grooves -->
+  <g fill="none" stroke="#1A1230" stroke-width="8" stroke-linecap="round">
+    <path d="M77.69 113.58A28 28 0 1 1 118 128.25"/>
+    <path d="M126 65.89A44 44 0 1 1 60.67 96.36"/>
+  </g>
+  <!-- label and center hole -->
+  <circle cx="104" cy="104" r="16" fill="#6B1F6E"/>
+  <circle cx="104" cy="104" r="8" fill="#1A1230"/>
+</svg>

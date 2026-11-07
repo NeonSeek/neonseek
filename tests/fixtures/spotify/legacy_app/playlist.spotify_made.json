@@ -1,0 +1,13 @@
+{
+  "request": {
+    "path": "/playlists/37i9dQZF1NeonFixture01",
+    "params": {}
+  },
+  "status": 404,
+  "body": {
+    "error": {
+      "status": 404,
+      "message": "Resource not found"
+    }
+  }
+}

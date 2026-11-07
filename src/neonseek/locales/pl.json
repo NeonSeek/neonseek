@@ -1,0 +1,1386 @@
+{
+ "language": "pl",
+ "messages": {
+  "There is no collection with id {id}. Check the list of collections.": "Nie ma kolekcji o id {id}. Sprawdź listę kolekcji.",
+  "Collection {id} does not come from a CSV file. Spotify collections are updated with sync.": "Kolekcja {id} nie pochodzi z pliku CSV. Kolekcje Spotify aktualizuje się przez synchronizację.",
+  "{path} is already imported as collection {id}. Re-import that collection instead.": "{path} jest już zaimportowany jako kolekcja {id}. Zaimportuj ponownie tamtą kolekcję.",
+  "The file of collection {id} is no longer at {path}. Choose its new location to re-import it. The collection and its tracks stay as they are.": "Plik kolekcji {id} nie leży już w {path}. Wskaż jego nowe miejsce, żeby zaimportować go ponownie. Kolekcja i jej utwory zostają bez zmian.",
+  "There is no collection with id {ids}. Check the list of collections.": "Nie ma kolekcji o id {ids}. Sprawdź listę kolekcji.",
+  "A download or a library move is running. Wait until it ends or cancel it, then try again.": "Trwa pobieranie albo przenoszenie biblioteki. Poczekaj, aż się skończy, albo je anuluj i spróbuj ponownie.",
+  "There is no track with id {ids}. Track IDs are in neonseek tracks and neonseek report.": "Nie ma utworu o id {ids}. Numery ID utworów pokazują neonseek tracks i neonseek report.",
+  "  ... and {count} more": "  ... i jeszcze {count}",
+  "In {folder} these files would get a path longer than {limit} characters, which Windows programs and the Recycle Bin cannot handle:": "W folderze {folder} te pliki dostałyby ścieżkę dłuższą niż {limit} znaków, a takiej nie obsługują programy Windows ani Kosz:",
+  "Choose a folder with a shorter path. Nothing was moved.": "Wybierz folder o krótszej ścieżce. Nic nie zostało przeniesione.",
+  "The new folder needs {size} free, its drive has {free}. Free some space or choose another drive. Nothing was moved.": "Nowy folder potrzebuje {size} wolnego miejsca, a na jego dysku jest {free}. Zwolnij miejsce albo wybierz inny dysk. Nic nie zostało przeniesione.",
+  "Could not create {path} ({error}). Choose another folder.": "Nie udało się utworzyć {path} ({error}). Wybierz inny folder.",
+  "There is no theme {name}. Themes: {names}.": "Nie ma motywu {name}. Dostępne motywy: {names}.",
+  "Choose the folder for your music library first, in Settings.": "Najpierw wybierz folder biblioteki muzyki w Ustawieniach.",
+  "rekordbox does not see new tags by itself: select the tracks in rekordbox, right-click and choose Reload Tag.": "rekordbox sam nie widzi nowych tagów: zaznacz utwory w rekordboxie, kliknij prawym przyciskiem i wybierz Reload Tag.",
+  "Could not create the library folder {path} ({error}). Choose another folder in Settings.": "Nie udało się utworzyć folderu biblioteki {path} ({error}). Wybierz inny folder w Ustawieniach.",
+  "nothing found on Soulseek": "w Soulseeku nic nie znaleziono",
+  "found, but no file matched the format, length or name": "znaleziono, ale żaden plik nie pasował formatem, długością albo nazwą",
+  "every download attempt failed": "każda próba pobrania się nie udała",
+  "The name \"{name}\" is already taken on Soulseek. Choose another name.": "Nazwa „{name}” jest już zajęta w Soulseeku. Wybierz inną.",
+  "Soulseek did not accept this password for \"{name}\". Check the password and try again.": "Soulseek nie przyjął tego hasła dla „{name}”. Sprawdź hasło i spróbuj ponownie.",
+  "Soulseek does not accept this username. Choose another name.": "Soulseek nie przyjmuje tej nazwy użytkownika. Wybierz inną.",
+  "Could not reach Soulseek. Check your internet connection and that no security program blocks NeonSeek, then try again.": "Nie udało się połączyć z Soulseekiem. Sprawdź połączenie z internetem i czy żaden program zabezpieczający nie blokuje NeonSeek, potem spróbuj ponownie.",
+  "Nothing was saved.": "Nic nie zostało zapisane.",
+  "Enter a Soulseek password.": "Wpisz hasło do Soulseeka.",
+  "Your password is the same as your username. Sockseek writes the username into its logs, so the password ends up there too. Change the password in a Soulseek program if you can.": "Twoje hasło jest takie samo jak nazwa użytkownika. Sockseek zapisuje nazwę użytkownika w swoich logach, więc trafia tam też hasło. Jeśli możesz, zmień hasło w jakimś programie do Soulseeka.",
+  "Connecting to Soulseek to check the login (no search, at most {seconds} seconds)...": "Łączę się z Soulseekiem, żeby sprawdzić logowanie (bez wyszukiwania, najwyżej {seconds} sekund)...",
+  "No Soulseek login is saved yet. Log in to Soulseek or create an account first.": "Nie ma jeszcze zapisanego konta Soulseek. Najpierw zaloguj się do Soulseeka albo załóż konto.",
+  "Adding {link}...": "Dodaję {link}...",
+  "Only tracks without a file can be corrected, and not while they are searched. Delete the file first if this track was downloaded wrong.": "Poprawić można tylko utwór bez pliku i nie w trakcie szukania. Jeśli ten utwór pobrał się źle, najpierw usuń jego plik.",
+  "The title cannot be empty.": "Tytuł nie może być pusty.",
+  "Spotify is not set up yet. Add your Spotify Client ID in Settings and log in. Without Spotify you can still import CSV files.": "Spotify nie jest jeszcze skonfigurowane. Wpisz swój Spotify Client ID w Ustawieniach i zaloguj się. Bez Spotify dalej możesz importować pliki CSV.",
+  "Log in to Spotify first. Without Spotify you can still import CSV files.": "Najpierw zaloguj się do Spotify. Bez Spotify dalej możesz importować pliki CSV.",
+  "NeonSeek is free software under the GNU General Public License, version 3 or later (GPL-3.0-or-later), and comes without any warranty. The full text is in the LICENSE file.": "NeonSeek to wolne oprogramowanie na licencji GNU General Public License w wersji 3 lub późniejszej (GPL-3.0-or-later), bez żadnej gwarancji. Pełny tekst licencji jest w pliku LICENSE.",
+  "Source code of this version: {url}": "Kod źródłowy tej wersji: {url}",
+  "Project page": "Strona projektu",
+  "Support NeonSeek": "Wesprzyj NeonSeek",
+  "Qt and PySide6 are used under the GNU Lesser General Public License, version 3 (LGPL-3.0). Their libraries are separate files in the program folder, so you can replace them with your own build.": "Qt i PySide6 są używane na licencji GNU Lesser General Public License, wersja 3 (LGPL-3.0). Ich biblioteki to osobne pliki w folderze programu, więc możesz je zastąpić własną wersją.",
+  "Write --map as field=column, for example --map title=Song.": "Podaj --map jako pole=kolumna, na przykład --map title=Song.",
+  "File: {path} ({encoding}, delimiter {delimiter!r})": "Plik: {path} ({encoding}, separator {delimiter!r})",
+  "Tracks in file: {count}": "Utworów w pliku: {count}",
+  "No collections yet. Import a CSV file or add a Spotify link.": "Nie ma jeszcze żadnych kolekcji. Zaimportuj plik CSV albo dodaj link do Spotify.",
+  "SEL": "ZAZN",
+  "KIND": "RODZAJ",
+  "TRACKS": "UTWORY",
+  "STATE": "STAN",
+  "NAME": "NAZWA",
+  "locked": "zablokowana",
+  "not synced": "niezsynchronizowana",
+  "ok": "ok",
+  "Whole library": "Cała biblioteka",
+  "No tracks yet. Import a CSV file or add a Spotify link.": "Nie ma jeszcze żadnych utworów. Zaimportuj plik CSV albo dodaj link do Spotify.",
+  "Name a collection with --collection ID, or use --all.": "Wskaż kolekcję przez --collection ID albo użyj --all.",
+  "No tracks.": "Brak utworów.",
+  "STATUS": "STATUS",
+  "LENGTH": "DŁUGOŚĆ",
+  "TRACK": "UTWÓR",
+  "(your own)": "(własny)",
+  "Change it with: neonseek settings theme <name>": "Zmienisz go poleceniem: neonseek settings theme <nazwa>",
+  "Source: {source}": "Źródło: {source}",
+  "(none)": "(brak)",
+  "Tracks: {counter} ({state})": "Utwory: {counter} ({state})",
+  "Selected: {value}": "Zaznaczona: {value}",
+  "yes": "tak",
+  "no": "nie",
+  "The PDF of the manual is not built yet. In the window, press HELP and then OPEN PDF, it builds the PDF. The manual itself is here: {path}": "PDF instrukcji nie jest jeszcze zbudowany. W oknie naciśnij POMOC, a potem OTWÓRZ PDF, wtedy PDF powstanie. Sama instrukcja leży tutaj: {path}",
+  "The manual is missing ({error}). Install NeonSeek again.": "Brakuje instrukcji ({error}). Zainstaluj NeonSeek ponownie.",
+  "There is no chapter {number}. Run neonseek help for the list.": "Nie ma rozdziału {number}. Listę rozdziałów pokaże neonseek help.",
+  "NeonSeek manual: {path}": "Instrukcja NeonSeek: {path}",
+  "Show a chapter with: neonseek help <number>": "Rozdział pokażesz poleceniem: neonseek help <numer>",
+  "Full texts of all licenses: {path}": "Pełne teksty wszystkich licencji: {path}",
+  "Sockseek {version}: {path}": "Sockseek {version}: {path}",
+  "Sockseek: {message}": "Sockseek: {message}",
+  "Parts of NeonSeek and their licenses:": "Składniki NeonSeek i ich licencje:",
+  "genre: {value}": "gatunek: {value}",
+  "comment: {value}": "komentarz: {value}",
+  "Selected": "Zaznaczone",
+  "Deselected": "Odznaczone",
+  "{word}: {ids}": "{word}: {ids}",
+  "Remove {names} and move {files} to the Recycle Bin?": "Usunąć {names} i przenieść do Kosza {files}?",
+  "Nothing was removed.": "Nic nie zostało usunięte.",
+  "Removed collections {ids}. Tracks, download state and files stay.": "Usunięto kolekcje {ids}. Utwory, stan pobierania i pliki zostają.",
+  "No Spotify Client ID set.": "Nie ustawiono Spotify Client ID.",
+  "Spotify Client ID saved.": "Zapisano Spotify Client ID.",
+  "In your Spotify app, the Redirect URI must be exactly: {uri}": "W Twojej aplikacji Spotify Redirect URI musi brzmieć dokładnie: {uri}",
+  "Log in to Spotify in your browser. If it does not open, go to:": "Zaloguj się do Spotify w przeglądarce. Jeśli się nie otworzy, wejdź na:",
+  "Logged in to Spotify as {name}.": "Zalogowano do Spotify jako {name}.",
+  "Logged out of Spotify. The saved login was removed from this computer.": "Wylogowano ze Spotify. Zapisane logowanie zostało usunięte z tego komputera.",
+  "y": "t",
+  "[y/N]": "[t/N]",
+  "{nothing} To go ahead without a question, add --yes.": "{nothing} Żeby wykonać to bez pytania, dodaj --yes.",
+  "Cancelled. {nothing}": "Anulowano. {nothing}",
+  "Track {id} has no downloaded file. Only downloaded tracks have one.": "Utwór {id} nie ma pobranego pliku. Plik mają tylko pobrane utwory.",
+  "The file is no longer there.": "Tego pliku już tam nie ma.",
+  "Give --artist, --title or both.": "Podaj --artist, --title albo oba.",
+  "Nothing to delete.": "Nie ma czego usuwać.",
+  "Nothing was deleted.": "Nic nie zostało usunięte.",
+  "Nothing was moved.": "Nic nie zostało przeniesione.",
+  "  {done}/{total}  {name}": "  {done}/{total}  {name}",
+  "Your Soulseek login is kept in Windows Credential Manager, never in a file.": "Twoje dane logowania do Soulseeka leżą w Menedżerze poświadczeń Windows, nigdy w pliku.",
+  "This replaces the saved Soulseek login for {user}. Continue?": "To zastąpi zapisane logowanie do Soulseeka dla {user}. Kontynuować?",
+  "Cancelled, nothing was saved.": "Anulowano, nic nie zostało zapisane.",
+  "Choose a name for your new Soulseek account. NeonSeek makes a strong password and keeps it for you, you never need to type it.": "Wymyśl nazwę dla nowego konta Soulseek. NeonSeek sam utworzy mocne hasło i je zapamięta, nigdy nie musisz go wpisywać.",
+  "New Soulseek username: ": "Nazwa nowego konta Soulseek: ",
+  "Soulseek username: ": "Nazwa użytkownika Soulseek: ",
+  "Soulseek password (hidden): ": "Hasło do Soulseeka (niewidoczne): ",
+  "Repeat the password (hidden): ": "Powtórz hasło (niewidoczne): ",
+  "The two passwords are different. Nothing was saved, run the command again.": "Hasła się różnią. Nic nie zostało zapisane, uruchom polecenie jeszcze raz.",
+  "Warning: {text}": "Uwaga: {text}",
+  "No Soulseek login saved. Run: neonseek soulseek login --new": "Nie ma zapisanego konta Soulseek. Uruchom: neonseek soulseek login --new",
+  "Soulseek login saved for \"{user}\".": "Zapisane konto Soulseek: „{user}”.",
+  "Soulseek login removed from this computer.": "Usunięto logowanie do Soulseeka z tego komputera.",
+  "(not set)": "(nie ustawiono)",
+  "{key} = {value}": "{key} = {value}",
+  "No collection is selected, nothing to retag. Select some with: neonseek select <ID>, or name one with --collection ID.": "Żadna kolekcja nie jest zaznaczona, więc nie ma w czym zapisywać tagów. Zaznacz kolekcje poleceniem neonseek select <ID> albo wskaż jedną przez --collection ID.",
+  "Choose what to retag: --collection ID (can be given more than once) or --selected for the selected collections.": "Wskaż, gdzie zapisać tagi: --collection ID (można podać kilka razy) albo --selected dla zaznaczonych kolekcji.",
+  "Use --track, or --collection / --selected, not both.": "Użyj --track albo --collection / --selected, nie obu naraz.",
+  "No collection is selected, nothing to download. Select some with: neonseek select <ID>, or name one with --collection ID.": "Żadna kolekcja nie jest zaznaczona, więc nie ma czego pobierać. Zaznacz kolekcje poleceniem neonseek select <ID> albo wskaż jedną przez --collection ID.",
+  "Choose what to download: --collection ID (can be given more than once) or --selected for the selected collections.": "Wskaż, co pobrać: --collection ID (można podać kilka razy) albo --selected dla zaznaczonych kolekcji.",
+  "--limit must be 1 or more.": "--limit musi wynosić co najmniej 1.",
+  "Nothing was downloaded. To start without a question, add --yes.": "Nic nie zostało pobrane. Żeby zacząć bez pytania, dodaj --yes.",
+  "Start the download?": "Zacząć pobieranie?",
+  "Cancelled, nothing was downloaded.": "Anulowano, nic nie zostało pobrane.",
+  "Nothing to report: no track is marked not found or failed.": "Raport jest pusty: żaden utwór nie ma statusu nieznaleziony ani nieudany.",
+  "waiting for WAV/AIFF": "czeka na WAV/AIFF",
+  "not found": "nieznaleziony",
+  "failed {attempts}/{stage}": "nieudany {attempts}/{stage}",
+  "Download them again now with: neonseek retry <TRACK ID> ... --download (starts again from FLAC)": "Pobierz je ponownie od razu: neonseek retry <ID UTWORU> ... --download (zaczyna znowu od FLAC-a)",
+  "Name the tracks to retry (IDs from neonseek report) or use --collection ID.": "Wskaż utwory do ponowienia (ID z neonseek report) albo użyj --collection ID.",
+  "Nothing to retry: no track of these collections is in the report.": "Nie ma czego ponawiać: żadnego utworu z tych kolekcji nie ma w raporcie.",
+  "Not changed (not in the report): {ids}": "Bez zmian (nie ma ich w raporcie): {ids}",
+  "Download track lists from Spotify or CSV from Soulseek in lossless quality.": "Pobiera listy utworów ze Spotify albo z CSV z sieci Soulseek w jakości bezstratnej.",
+  "show the version number and exit": "pokaż numer wersji i zakończ",
+  "FOLDER": "FOLDER",
+  "use this folder instead of %%APPDATA%%\\NeonSeek (for testing)": "użyj tego folderu zamiast %%APPDATA%%\\NeonSeek (do testów)",
+  "COMMAND": "POLECENIE",
+  "TRACK_ID": "ID_UTWORU",
+  "import a track list": "zaimportuj listę utworów",
+  "import a csv file, no spotify needed": "zaimportuj plik csv, bez spotify",
+  "FILE": "PLIK",
+  "collection name (default: file name)": "nazwa kolekcji (domyślnie nazwa pliku)",
+  "FIELD=COLUMN[,...]": "POLE=KOLUMNA[,...]",
+  "pick columns by hand, fields: {fields}. an empty column unmaps the field": "wybierz kolumny ręcznie, pola: {fields}. pusta kolumna odpina pole",
+  "unit of the length column (clock means m:ss or h:mm:ss)": "jednostka kolumny długości (clock to m:ss albo h:mm:ss)",
+  "point an existing csv collection at this file (when the file was moved)": "wskaż istniejącej kolekcji csv ten plik (gdy plik został przeniesiony)",
+  "show the mapping and first rows, import nothing": "pokaż mapowanie i pierwsze wiersze, niczego nie importuj",
+  "read a csv collection again from its file": "wczytaj kolekcję csv ponownie z jej pliku",
+  "list collections": "pokaż listę kolekcji",
+  "list the tracks of a collection with their state": "pokaż utwory kolekcji z ich stanem",
+  "the tracks of this collection": "utwory tej kolekcji",
+  "every track of the library": "wszystkie utwory biblioteki",
+  "TEXT": "TEKST",
+  "only tracks with every word in title, artist or album": "tylko utwory, które mają każde słowo w tytule, wykonawcy albo albumie",
+  "only tracks to download, downloaded ones, or not found and failed ones": "tylko utwory do pobrania, pobrane albo nieznalezione i nieudane",
+  "mark collections for sync and download": "zaznacz kolekcje do synchronizacji i pobierania",
+  "unmark collections": "odznacz kolekcje",
+  "remove collections, files stay in the library": "usuń kolekcje, pliki zostają w bibliotece",
+  "also move downloaded files to the recycle bin (only tracks in no other collection, and the playlist file)": "przenieś też pobrane pliki do kosza (tylko utworów spoza innych kolekcji i plik playlisty)",
+  "delete without asking": "usuń bez pytania",
+  "one or more tracks: info, file, edit, exclude, delete": "jeden albo więcej utworów: informacje, plik, poprawka, wykluczenie, usunięcie",
+  "ACTION": "DZIAŁANIE",
+  "everything known about tracks (properties)": "wszystko, co wiadomo o utworach (właściwości)",
+  "where the file of a track is": "gdzie leży plik utworu",
+  "correct the artist or title of a track before it is searched": "popraw wykonawcę albo tytuł utworu, zanim zostanie wyszukany",
+  "the artist to search for": "wykonawca do wyszukania",
+  "the title to search for": "tytuł do wyszukania",
+  "no download takes these tracks": "żadne pobieranie nie bierze tych utworów",
+  "excluded tracks come back as before": "wykluczone utwory wracają do stanu sprzed wykluczenia",
+  "move the files of tracks to the recycle bin and exclude the tracks": "przenieś pliki utworów do kosza i wyklucz te utwory",
+  "the music library folder": "folder biblioteki muzyki",
+  "move the downloaded files and playlists to another folder": "przenieś pobrane pliki i playlisty do innego folderu",
+  "move without asking": "przenieś bez pytania",
+  "spotify login and settings": "logowanie i ustawienia spotify",
+  "show or set your spotify client id": "pokaż albo ustaw swój spotify client id",
+  "log in to spotify in the browser": "zaloguj się do spotify w przeglądarce",
+  "only print the login link": "tylko wypisz link do logowania",
+  "forget the spotify login": "zapomnij logowanie do spotify",
+  "check the spotify login": "sprawdź logowanie do spotify",
+  "soulseek login": "logowanie do soulseeka",
+  "log in with your soulseek account (password hidden), or create one with --new": "zaloguj się swoim kontem soulseek (hasło niewidoczne) albo załóż konto przez --new",
+  "create a new account: you only choose the name, neonseek makes the password": "załóż nowe konto: wybierasz tylko nazwę, hasło tworzy neonseek",
+  "skip the username question": "pomiń pytanie o nazwę użytkownika",
+  "replace a saved login without asking": "zastąp zapisane logowanie bez pytania",
+  "show which soulseek login is saved": "pokaż, które konto soulseek jest zapisane",
+  "log in once with the saved login, without any search": "zaloguj się raz zapisanym kontem, bez żadnego wyszukiwania",
+  "forget the soulseek login": "zapomnij logowanie do soulseeka",
+  "read selected collections again: spotify, apple music, youtube, soundcloud and tidal": "wczytaj ponownie zaznaczone kolekcje: spotify, apple music, youtube, soundcloud i tidal",
+  "only this collection, selected or not": "tylko ta kolekcja, zaznaczona czy nie",
+  "only the list of playlists, no content (what the window does at start)": "tylko lista playlist, bez zawartości (to robi okno przy starcie)",
+  "add playlist, album or track links of spotify, apple music, youtube, soundcloud or tidal": "dodaj linki do playlist, albumów albo utworów ze spotify, apple music, youtube, soundcloud albo tidal",
+  "download missing tracks of collections": "pobierz brakujące utwory kolekcji",
+  "download this collection, selected or not (can be given more than once)": "pobierz tę kolekcję, zaznaczoną czy nie (można podać kilka razy)",
+  "download the selected collections": "pobierz zaznaczone kolekcje",
+  "only this track, whatever its collection (can be given more than once)": "tylko ten utwór, niezależnie od kolekcji (można podać kilka razy)",
+  "only the first N tracks to do": "tylko pierwsze N utworów do zrobienia",
+  "start without asking": "zacznij bez pytania",
+  "tracks not found or failed": "utwory nieznalezione albo nieudane",
+  "only tracks of this collection": "tylko utwory tej kolekcji",
+  "save the list as csv": "zapisz listę jako csv",
+  "search tracks from the report again, from flac": "szukaj utworów z raportu ponownie, od flac",
+  "every track of the report in this collection": "wszystkie utwory z raportu w tej kolekcji",
+  "download these tracks now, after the summary": "pobierz te utwory od razu, po podsumowaniu",
+  "with --download: start without asking": "z --download: zacznij bez pytania",
+  "settings of one collection": "ustawienia jednej kolekcji",
+  "genre and comment written into the files of a collection": "gatunek i komentarz zapisywane w plikach kolekcji",
+  "genre, \"\" clears it": "gatunek, \"\" go czyści",
+  "comment, \"\" clears it": "komentarz, \"\" go czyści",
+  "kind, source, counts and tags": "rodzaj, źródło, liczniki i tagi",
+  "where the library is, or the playlist file of a collection": "gdzie leży biblioteka albo plik playlisty kolekcji",
+  "the playlist file of this collection": "plik playlisty tej kolekcji",
+  "list color themes, * marks the current one": "lista motywów kolorów, * oznacza bieżący",
+  "versions and licenses": "wersje i licencje",
+  "details for someone helping you, with passwords and names cut": "szczegóły dla osoby, która Ci pomaga, bez haseł i nazw",
+  "the user manual in the language of neonseek, chapter by chapter": "instrukcja obsługi w języku neonseek, rozdział po rozdziale",
+  "show this chapter of the manual": "pokaż ten rozdział instrukcji",
+  "where the pdf of the manual is": "gdzie leży pdf instrukcji",
+  "write tags again into downloaded files": "zapisz tagi ponownie w pobranych plikach",
+  "retag this collection, selected or not (can be given more than once)": "zapisz tagi w tej kolekcji, zaznaczonej czy nie (można podać kilka razy)",
+  "retag the selected collections": "zapisz tagi w zaznaczonych kolekcjach",
+  "show or change settings": "pokaż albo zmień ustawienia",
+  "KEY": "KLUCZ",
+  "VALUE": "WARTOŚĆ",
+  "Use --map, for example: --map \"title=<column with titles>\"": "Użyj --map, na przykład: --map \"title=<kolumna z tytułami>\"",
+  "Run: neonseek spotify client-id <your client id>": "Uruchom: neonseek spotify client-id <Twój client id>",
+  "Run: neonseek spotify login": "Uruchom: neonseek spotify login",
+  "Run: neonseek soulseek login --new (new account) or neonseek soulseek login (your own account)": "Uruchom: neonseek soulseek login --new (nowe konto) albo neonseek soulseek login (Twoje własne konto)",
+  "Run: neonseek settings library_dir \"<folder>\"": "Uruchom: neonseek settings library_dir \"<folder>\"",
+  "Cancel the running download, or wait until it ends.": "Anuluj trwające pobieranie albo poczekaj, aż się skończy.",
+  "Run: neonseek import csv <new file> --collection {id}": "Uruchom: neonseek import csv <nowy plik> --collection {id}",
+  "usage: ": "użycie: ",
+  "positional arguments": "argumenty pozycyjne",
+  "options": "opcje",
+  "show this help message and exit": "pokaż tę pomoc i zakończ",
+  "%(prog)s: error: %(message)s\n": "%(prog)s: błąd: %(message)s\n",
+  "the following arguments are required: %s": "brakuje wymaganych argumentów: %s",
+  "unrecognized arguments: %s": "nieznane argumenty: %s",
+  "invalid choice: %(value)r (choose from %(choices)s)": "nieprawidłowy wybór: %(value)r (do wyboru: %(choices)s)",
+  "invalid %(type)s value: %(value)r": "nieprawidłowa wartość %(type)s: %(value)r",
+  "argument %(argument_name)s: %(message)s": "argument %(argument_name)s: %(message)s",
+  "not allowed with argument %s": "nie można użyć razem z argumentem %s",
+  "one of the arguments %s is required": "wymagany jest jeden z argumentów %s",
+  "expected one argument": "oczekiwano jednego argumentu",
+  "expected at least one argument": "oczekiwano co najmniej jednego argumentu",
+  "ambiguous option: %(option)s could match %(matches)s": "niejednoznaczna opcja: %(option)s pasuje do %(matches)s",
+  "Error: {message}": "Błąd: {message}",
+  "Settings file {path} is damaged ({error}). Fix it or delete it to start over.": "Plik ustawień {path} jest uszkodzony ({error}). Popraw go albo usuń, żeby zacząć od nowa.",
+  "{key} must be between {low} and {high}.": "{key} musi wynosić od {low} do {high}.",
+  "Unknown setting {key}. Settings you can change: {keys}.": "Nieznane ustawienie {key}. Ustawienia, które możesz zmienić: {keys}.",
+  "{key} can be: {values}.": "{key} może mieć wartość: {values}.",
+  "{key} must be a whole number.": "{key} musi być liczbą całkowitą.",
+  "{key} can be: true, false.": "{key} może mieć wartość: true, false.",
+  "{value} is not a theme name.": "{value} nie jest nazwą motywu.",
+  "Give the full path of the library folder, for example D:\\Music\\Library.": "Podaj pełną ścieżkę folderu biblioteki, na przykład D:\\Muzyka\\Biblioteka.",
+  "{path} is a file, not a folder. Choose a folder.": "{path} to plik, a nie folder. Wybierz folder.",
+  "Could not download the cover ({error}).": "Nie udało się pobrać okładki ({error}).",
+  "Could not download the cover (HTTP {code}).": "Nie udało się pobrać okładki (HTTP {code}).",
+  "The cover image is too large.": "Obraz okładki jest za duży.",
+  "The cover is not a JPEG, PNG or WebP image.": "Okładka nie jest obrazem JPEG, PNG ani WebP.",
+  "Could not save a copy of the database before updating it ({error}). Nothing was changed. Free some space on the drive of {folder} and start NeonSeek again.": "Nie udało się zapisać kopii bazy danych przed jej aktualizacją ({error}). Nic nie zostało zmienione. Zwolnij trochę miejsca na dysku z folderem {folder} i uruchom NeonSeek ponownie.",
+  "The database was created by a newer version of NeonSeek. Install the newest version to open it.": "Bazę danych utworzyła nowsza wersja NeonSeek. Zainstaluj najnowszą wersję, żeby ją otworzyć.",
+  "Could not open the database {path} ({error}). Close other NeonSeek windows and try again.": "Nie udało się otworzyć bazy danych {path} ({error}). Zamknij inne okna NeonSeek i spróbuj ponownie.",
+  "Sockseek, the program NeonSeek uses to download from Soulseek, is missing. Install NeonSeek again.": "Brakuje Sockseeka, programu, którym NeonSeek pobiera z Soulseeka. Zainstaluj NeonSeek ponownie.",
+  "Could not start Sockseek ({error}). Install NeonSeek again.": "Nie udało się uruchomić Sockseeka ({error}). Zainstaluj NeonSeek ponownie.",
+  "Sockseek did not answer. Restart Windows, then install NeonSeek again.": "Sockseek nie odpowiedział. Uruchom ponownie Windows, a potem zainstaluj ponownie NeonSeek.",
+  "Sockseek did not start properly (exit code {code}). Install NeonSeek again.": "Sockseek nie uruchomił się poprawnie (kod wyjścia {code}). Zainstaluj NeonSeek ponownie.",
+  "Soulseek did not accept the saved login: the password is wrong, or the username belongs to someone else. Log in to Soulseek again in Settings.": "Soulseek nie przyjął zapisanego logowania: hasło jest złe albo nazwa należy do kogoś innego. Zaloguj się do Soulseeka ponownie w Ustawieniach.",
+  "Soulseek does not accept this username. Log in to Soulseek again in Settings with another name.": "Soulseek nie przyjmuje tej nazwy użytkownika. Zaloguj się do Soulseeka ponownie w Ustawieniach, z inną nazwą.",
+  "The Soulseek server is full right now. Try again later.": "Serwer Soulseek jest teraz pełny. Spróbuj później.",
+  "The Soulseek server does not accept new accounts right now. Try again later.": "Serwer Soulseek nie przyjmuje teraz nowych kont. Spróbuj później.",
+  "The Soulseek server does not accept this version of Sockseek. Install the newest NeonSeek.": "Serwer Soulseek nie przyjmuje tej wersji Sockseeka. Zainstaluj najnowszy NeonSeek.",
+  "Could not log in to Soulseek ({reason}). Check your internet connection and try again.": "Nie udało się zalogować do Soulseeka ({reason}). Sprawdź połączenie z internetem i spróbuj ponownie.",
+  "Your Soulseek account logged in somewhere else, for example in another Soulseek program. Close it and start again.": "Twoje konto Soulseek zalogowało się gdzie indziej, na przykład w innym programie do Soulseeka. Zamknij go i zacznij ponownie.",
+  "Could not connect to Soulseek within {seconds} seconds. Check your internet connection and that no security program blocks NeonSeek. If it keeps happening, the Soulseek account may be banned: the server does not answer banned accounts at all. Then log in with another account in Settings.": "Nie udało się połączyć z Soulseekiem w ciągu {seconds} s. Sprawdź połączenie z internetem i czy żaden program zabezpieczający nie blokuje NeonSeek. Jeśli to się powtarza, konto Soulseek może być zbanowane: serwer w ogóle nie odpowiada zbanowanym kontom. Wtedy zaloguj się innym kontem w Ustawieniach.",
+  "Sockseek gave no sign of life for {minutes} minutes, so the download was stopped. Finished tracks are kept. Start the download again. If this keeps happening, raise the idle limit in Settings.": "Sockseek nie dawał znaku życia przez {minutes} min, więc pobieranie zostało zatrzymane. Pobrane utwory zostają. Zacznij pobieranie ponownie. Jeśli to się powtarza, zwiększ limit ciszy w Ustawieniach.",
+  "Sockseek stopped unexpectedly (exit code {code}). Start the download again. If it keeps happening, copy the diagnostics from About.": "Sockseek nagle się zatrzymał (kod wyjścia {code}). Zacznij pobieranie ponownie. Jeśli to się powtarza, skopiuj diagnostykę w oknie O programie.",
+  "This is already the library folder.": "To już jest folder biblioteki.",
+  "The new folder is inside the {name} folder of the current library. Choose another folder.": "Nowy folder leży w folderze {name} obecnej biblioteki. Wybierz inny folder.",
+  "the copy is not complete, the file stays where it was": "kopia jest niepełna, plik zostaje tam, gdzie był",
+  "a file with this name is already in the new folder": "w nowym folderze jest już plik o tej nazwie",
+  "Columns: {columns}": "Kolumny: {columns}",
+  "Length unit: {unit}": "Jednostka długości: {unit}",
+  "No length column, tracks will be matched without length.": "Brak kolumny długości, utwory będą dopasowywane bez długości.",
+  "Rows skipped (no title): {count}": "Pominięte wiersze (bez tytułu): {count}",
+  "Lengths that could not be read (imported without length): {count}": "Długości, których nie udało się odczytać (zaimportowano bez długości): {count}",
+  "Collection {id} \"{name}\" is up to date, nothing changed.": "Kolekcja {id} „{name}” jest aktualna, nic się nie zmieniło.",
+  "Renamed to \"{name}\".": "Nowa nazwa: „{name}”.",
+  "Imported": "Zaimportowano",
+  "Updated": "Zaktualizowano",
+  "{verb} \"{name}\" as collection {id}: {total} tracks ({new} new, {existing} already in the library).": "{verb}: „{name}”, kolekcja {id}. Utwory: {total} (nowe: {new}, już w bibliotece: {existing}).",
+  "{count} tracks are no longer in this list. Their files and download state stay.": "Utwory, których nie ma już na tej liście: {count}. Ich pliki i stan pobierania zostają.",
+  "{total} tracks ({new} new, {existing} already in the library)": "utwory: {total} (nowe: {new}, już w bibliotece: {existing})",
+  "Spotify playlists on your account: {count} ({new} new).": "Playlisty Spotify na Twoim koncie: {count} (nowe: {new}).",
+  "Spotify does not share the tracks of {count} of them: {names}": "Spotify nie udostępnia utworów części z nich ({count}): {names}",
+  "{label}: updated, {details}.": "{label}: zaktualizowano, {details}.",
+  "{count} removed from the list, files stay.": "Usunięte z listy: {count}, pliki zostają.",
+  "{count} podcasts or local files skipped.": "Pominięte podcasty i pliki lokalne: {count}.",
+  "{label}: no changes on Spotify.": "{label}: bez zmian w Spotify.",
+  "{label}: {message}": "{label}: {message}",
+  "No Spotify collections are selected. Select some with: neonseek select <ID>": "Żadna kolekcja Spotify nie jest zaznaczona. Zaznacz je poleceniem: neonseek select <ID>",
+  "Track {id} is now: {label}": "Utwór {id} to teraz: {label}",
+  "No collections are selected. Select some with: neonseek select <ID>": "Żadna kolekcja nie jest zaznaczona. Zaznacz je poleceniem: neonseek select <ID>",
+  "Added: {name} (collection {id}, {tracks} tracks)": "Dodano: {name} (kolekcja {id}, utwory: {tracks})",
+  "Already there: {name} (collection {id})": "Już jest: {name} (kolekcja {id})",
+  "Not added: {link}": "Nie dodano: {link}",
+  "{label}: no changes on {service}.": "{label}: bez zmian w {service}.",
+  "Selected Spotify collections were not read: Spotify is not logged in. Log in to Spotify to sync them too.": "Zaznaczone kolekcje Spotify nie zostały wczytane, bo nie jesteś zalogowany do Spotify. Zaloguj się, żeby je też synchronizować.",
+  "{label}: genre: {genre} | comment: {comment}": "{label}: gatunek: {genre} | komentarz: {comment}",
+  "Tags written to {written} files, {same} already up to date.": "Zapisano tagi w plikach: {written}, aktualnych już wcześniej: {same}.",
+  "File missing: {label}": "Brak pliku: {label}",
+  "Could not write tags: {label}: {error}": "Nie udało się zapisać tagów: {label}: {error}",
+  "Playlists written again afterwards: {names}": "Playlisty zapisane ponownie na koniec: {names}",
+  "Collections in this download:": "Kolekcje w tym pobieraniu:",
+  "  [{id}] {name} has no tracks yet. For Spotify press SYNC first.": "  [{id}] {name} nie ma jeszcze utworów. Przy Spotify najpierw naciśnij SYNCHRONIZUJ.",
+  "  [{id}] {name} has no tracks yet. For Spotify run: neonseek sync --collection {id}": "  [{id}] {name} nie ma jeszcze utworów. Przy Spotify uruchom: neonseek sync --collection {id}",
+  "Tracks in these collections: {total}, already downloaded: {done}.": "Utwory w tych kolekcjach: {total}, już pobrane: {done}.",
+  "Download time and the WAV/AIFF pass for tracks without FLAC are not included, they cannot be known in advance.": "Nie obejmuje czasu pobierania ani przebiegu WAV/AIFF dla utworów bez FLAC-a, bo tego nie da się przewidzieć.",
+  "Download time is not included, it cannot be known in advance.": "Nie obejmuje czasu pobierania, bo tego nie da się przewidzieć.",
+  "Waiting {time} so the Soulseek search limit is not exceeded...": "Czekam {time}, żeby nie przekroczyć limitu wyszukiwań Soulseeka...",
+  "  Waiting for the Soulseek search limit...": "  Czekam na limit wyszukiwań Soulseeka...",
+  "  warning    {label}: {step}: {message}": "  uwaga          {label}: {step}: {message}",
+  "  done       {label}  {file}": "  pobrany        {label}  {file}",
+  "  not found  {label} ({reason})": "  nieznaleziony  {label} ({reason})",
+  "  failed     {label} ({reason})": "  nieudany       {label} ({reason})",
+  "Starting...": "Zaczynam...",
+  "Pass {number} ({kind}): {done} / {total}": "Przebieg {number} ({kind}): {done} / {total}",
+  "Tracks of this run: {counts}": "Utwory w tym pobieraniu: {counts}",
+  "Playlist: {path}": "Playlista: {path}",
+  "Pass {number}: longest silence of Sockseek {seconds} s (after: {after})": "Przebieg {number}: najdłuższa cisza Sockseeka {seconds} s (po: {after})",
+  "Log: {path}": "Log: {path}",
+  "Cancelled. Finished tracks are kept, start the download again to continue.": "Anulowano. Pobrane utwory zostają, zacznij pobieranie ponownie, żeby kontynuować.",
+  "Nothing to download.": "Nie ma nic do pobrania.",
+  "Created the Soulseek account \"{user}\" and saved it. The password is kept in Windows Credential Manager.": "Założono konto Soulseek „{user}” i zapisano je. Hasło leży w Menedżerze poświadczeń Windows.",
+  "Logged in to Soulseek as \"{user}\" and saved the login.": "Zalogowano do Soulseeka jako „{user}” i zapisano logowanie.",
+  "Soulseek login works for \"{user}\".": "Logowanie do Soulseeka działa dla „{user}”.",
+  "Files are not changed yet. Press WRITE TAGS to write the tags into the downloaded files.": "Pliki nie są jeszcze zmienione. Naciśnij ZAPISZ TAGI, żeby zapisać tagi w pobranych plikach.",
+  "Files are not changed yet. To write the tags into downloaded files, run: neonseek retag --collection {id}": "Pliki nie są jeszcze zmienione. Żeby zapisać tagi w pobranych plikach, uruchom: neonseek retag --collection {id}",
+  "Right-click them and choose Include again to download them later.": "Żeby pobrać je później, kliknij je prawym przyciskiem i wybierz Przywróć do pobierania.",
+  "Include them again with: neonseek track include <TRACK ID> ...": "Przywrócisz je poleceniem: neonseek track include <ID UTWORU> ...",
+  "The tracks become excluded, so no download brings them back, and the playlists of their collections are written again. You can restore the files from the Recycle Bin.": "Utwory staną się wykluczone, więc żadne pobieranie ich nie przywróci, a playlisty ich kolekcji zostaną zapisane od nowa. Pliki możesz odzyskać z Kosza.",
+  "Not deleted, the file is outside the library folder: {path}": "Nie usunięto, plik leży poza folderem biblioteki: {path}",
+  "{label}: the file left the library, but NeonSeek could not confirm it in the Recycle Bin. The track is excluded now. Check the Recycle Bin, and if the file is not there, include the track again and download it.": "{label}: plik zniknął z biblioteki, ale NeonSeek nie znalazł go w Koszu. Utwór jest teraz wykluczony. Sprawdź Kosz, a jeśli pliku tam nie ma, przywróć utwór do pobierania i pobierz go.",
+  "Not deleted: {label}: {problem}": "Nie usunięto: {label}: {problem}",
+  "Playlist written again: {path}": "Playlista zapisana ponownie: {path}",
+  "With this option, {files} and {playlists} go to the Recycle Bin.": "Z tą opcją do Kosza trafią: {files} i {playlists}.",
+  "Removed collections {ids}. Tracks and their download state stay.": "Usunięto kolekcje {ids}. Utwory i ich stan pobierania zostają.",
+  "Moved to the Recycle Bin: {files} and {playlists}.": "Przeniesiono do Kosza: {files} i {playlists}.",
+  "{path} left the library, but NeonSeek could not confirm it in the Recycle Bin. Check the Recycle Bin.": "{path} zniknął z biblioteki, ale NeonSeek nie znalazł go w Koszu. Sprawdź Kosz.",
+  "Not deleted: {path}: {problem}": "Nie usunięto: {path}: {problem}",
+  "From: {path}": "Z:  {path}",
+  "To:   {path}": "Do: {path}",
+  "The new folder is on another drive: each file is copied, the copy is checked, and only then the old file is deleted for good, not into the Recycle Bin.": "Nowy folder jest na innym dysku: każdy plik zostanie skopiowany, kopia sprawdzona i dopiero wtedy stary plik zostanie usunięty na stałe, nie do Kosza.",
+  "Files you put into the library folder yourself are not moved. An interrupted move loses nothing, start it again to finish.": "Pliki włożone do folderu biblioteki samodzielnie nie są przenoszone. Przerwane przenoszenie niczego nie gubi, uruchom je ponownie, żeby je dokończyć.",
+  "Moved {moved} of {total} files.": "Przeniesione pliki: {moved} z {total}.",
+  "Not moved: {path}: {problem}": "Nie przeniesiono: {path}: {problem}",
+  "The library folder is now {path}.": "Folder biblioteki to teraz {path}.",
+  "rekordbox still knows the old file locations: import the playlists from the new folder again, or use Relocate in rekordbox.": "rekordbox dalej zna stare miejsca plików: zaimportuj ponownie playlisty z nowego folderu albo użyj Relocate w rekordboxie.",
+  "The move was stopped.": "Przenoszenie zostało zatrzymane.",
+  "To finish, choose the same new folder in Settings again.": "Żeby je dokończyć, wybierz w Ustawieniach ten sam nowy folder jeszcze raz.",
+  "To finish, run: neonseek library move \"{path}\"": "Żeby je dokończyć, uruchom: neonseek library move \"{path}\"",
+  "The library folder stays {old}. Moved files are already in the new folder and the playlists point to them.": "Folder biblioteki zostaje bez zmian: {old}. Przeniesione pliki są już w nowym folderze, a playlisty na nie wskazują.",
+  "Could not refresh your Spotify playlists ({message}). The list from last time stays.": "Nie udało się odświeżyć Twoich playlist Spotify ({message}). Zostaje lista z poprzedniego razu.",
+  "The cover is not a JPEG or PNG image, rekordbox would not show it.": "Okładka nie jest obrazem JPEG ani PNG, rekordbox by jej nie pokazał.",
+  "The file was not checked, it cannot go to the library.": "Plik nie został sprawdzony, nie może trafić do biblioteki.",
+  "Could not move the file to the library ({error}). Check the free space and that the library folder is writable.": "Nie udało się przenieść pliku do biblioteki ({error}). Sprawdź wolne miejsce i czy do folderu biblioteki można zapisywać.",
+  "unknown": "nieznany",
+  "Not a FLAC, WAV or AIFF file (looks like: {kind}).": "To nie jest plik FLAC, WAV ani AIFF (wygląda na: {kind}).",
+  "The WAV file holds compressed audio (format {code:#06x}).": "Plik WAV zawiera skompresowany dźwięk (format {code:#06x}).",
+  "The AIFF file holds compressed audio ({kind}).": "Plik AIFF zawiera skompresowany dźwięk ({kind}).",
+  "The file is damaged ({error}).": "Plik jest uszkodzony ({error}).",
+  "The file has no audio.": "Plik nie zawiera dźwięku.",
+  "The file is {got} s long, the track is {want} s. Wrong version.": "Plik trwa {got} s, a utwór {want} s. To inna wersja.",
+  "Unexpected error: {e}": "Nieoczekiwany błąd: {e}",
+  "NeonSeek only deletes into the Windows Recycle Bin, and {path} is on a drive without one ({why}). Nothing was deleted. Delete the file yourself in Explorer if you really want it gone, or move the library to an internal drive in Settings.": "NeonSeek usuwa tylko do Kosza Windows, a {path} leży na dysku bez Kosza ({why}). Nic nie zostało usunięte. Jeśli naprawdę chcesz pozbyć się pliku, usuń go samodzielnie w Eksploratorze albo przenieś bibliotekę na dysk wewnętrzny w Ustawieniach.",
+  "unknown drive": "nieznany dysk",
+  "drive not found": "nie znaleziono dysku",
+  "removable drive, like a USB stick": "dysk wymienny, np. pendrive",
+  "network drive": "dysk sieciowy",
+  "CD or DVD drive": "napęd CD albo DVD",
+  "RAM disk": "dysk RAM",
+  "drive without a Recycle Bin": "dysk bez Kosza",
+  "a drive made with subst": "dysk utworzony przez subst",
+  "the Recycle Bin is turned off for this drive": "Kosz jest wyłączony dla tego dysku",
+  "Windows does not tell the size of the Recycle Bin of this drive": "Windows nie podaje rozmiaru Kosza tego dysku",
+  "the file is bigger than the Recycle Bin of this drive": "plik jest większy niż Kosz tego dysku",
+  "NeonSeek only deletes into the Windows Recycle Bin, and the path of {path} is longer than {limit} characters, which the Recycle Bin cannot take. Nothing was deleted. Move the library to a folder with a shorter path in Settings, or delete the file yourself in Explorer.": "NeonSeek usuwa tylko do Kosza Windows, a ścieżka {path} ma więcej niż {limit} znaków, czego Kosz nie przyjmie. Nic nie zostało usunięte. Przenieś bibliotekę w Ustawieniach do folderu o krótszej ścieżce albo usuń plik samodzielnie w Eksploratorze.",
+  "not Windows": "to nie Windows",
+  "Could not check the drive of {path} ({error}). Nothing was deleted.": "Nie udało się sprawdzić dysku dla {path} ({error}). Nic nie zostało usunięte.",
+  "{path} did not go to the Recycle Bin. It is still in the library.": "{path} nie trafił do Kosza. Dalej jest w bibliotece.",
+  "{path} left the library, but NeonSeek could not confirm it in the Recycle Bin. Look for it in the Recycle Bin.": "{path} zniknął z biblioteki, ale NeonSeek nie znalazł go w Koszu. Poszukaj go w Koszu.",
+  "Windows could not move {path} to the Recycle Bin (code {code}). Close programs that use the file and try again.": "Windows nie przeniósł {path} do Kosza (kod {code}). Zamknij programy, które używają pliku, i spróbuj ponownie.",
+  "Another NeonSeek download or library move is running. Wait until it ends or cancel it, then start again.": "Trwa już inne pobieranie albo przenoszenie biblioteki w NeonSeek. Poczekaj, aż się skończy, albo je anuluj i zacznij ponownie.",
+  "Could not use Windows Credential Manager ({error}). Restart Windows and try again. If it keeps failing, check that the Credential Manager service is running.": "Nie udało się użyć Menedżera poświadczeń Windows ({error}). Uruchom ponownie Windows i spróbuj jeszcze raz. Jeśli to nie pomoże, sprawdź, czy działa usługa Menedżer poświadczeń.",
+  "Enter a Soulseek username.": "Wpisz nazwę użytkownika Soulseek.",
+  "A Soulseek username can have at most {count} characters.": "Nazwa użytkownika Soulseek może mieć najwyżej {count} znaków.",
+  "A Soulseek username can only use plain English letters, digits, spaces and simple symbols, no accents or emoji.": "Nazwa użytkownika Soulseek może zawierać tylko zwykłe litery bez polskich znaków, cyfry, spacje i proste symbole, bez emoji.",
+  "A Soulseek username cannot start or end with a space.": "Nazwa użytkownika Soulseek nie może zaczynać się ani kończyć spacją.",
+  "Apple Music answered in a form NeonSeek cannot read, Apple may have changed its pages. Try again later or check for a newer version of NeonSeek. Meanwhile you can export the playlist from iTunes or the Music app as a .txt file and import it.": "Apple Music odpowiedziało w formie, której NeonSeek nie umie odczytać, Apple mogło zmienić swoje strony. Spróbuj później albo sprawdź, czy jest nowsza wersja NeonSeek. Do tego czasu możesz wyeksportować playlistę z iTunes albo aplikacji Muzyka jako plik .txt i go zaimportować.",
+  "Apple Music shows only the first 300 tracks of a playlist, NeonSeek read those. For the whole playlist export it from iTunes or the Music app (File > Library > Export Playlist, Unicode text) and import the .txt file, or split it into playlists of up to 300 tracks.": "Apple Music pokazuje tylko pierwsze 300 utworów playlisty i tyle NeonSeek wczytał. Żeby mieć całą playlistę, wyeksportuj ją z iTunes albo aplikacji Muzyka (Plik > Biblioteka > Eksportuj playlistę, tekst Unicode) i zaimportuj plik .txt, albo podziel ją na playlisty po najwyżej 300 utworów.",
+  "Apple Music could not find this {what}. Check that the link is complete and that it is available in the Apple Music store of the country in the link ({country}).": "Apple Music nie znalazło tego elementu ({what}). Sprawdź, czy link jest pełny i czy to jest dostępne w sklepie Apple Music kraju z linku ({country}).",
+  "Apple Music did not answer in time. Check the internet connection and try again.": "Apple Music nie odpowiedziało na czas. Sprawdź połączenie z internetem i spróbuj ponownie.",
+  "No connection to Apple Music ({error}). Check the internet connection and try again.": "Brak połączenia z Apple Music ({error}). Sprawdź połączenie z internetem i spróbuj ponownie.",
+  "Apple Music refused the request (HTTP {status}). Wait a few minutes and try again.": "Apple Music odrzuciło zapytanie (HTTP {status}). Odczekaj kilka minut i spróbuj ponownie.",
+  "Apple Music has a problem right now (HTTP {status}). Try again later.": "Apple Music ma teraz problem (HTTP {status}). Spróbuj później.",
+  "Reading track details from Apple Music ({done}/{total})...": "Wczytuję szczegóły utworów z Apple Music ({done}/{total})...",
+  "song": "utwór",
+  "Reading the album from Apple Music...": "Wczytuję album z Apple Music...",
+  "album": "album",
+  "Reading the playlist from Apple Music...": "Wczytuję playlistę z Apple Music...",
+  "playlist": "playlista",
+  "Single tracks": "Pojedyncze utwory",
+  "Liked Songs": "Polubione utwory",
+  "File {path} does not exist. Check the location and choose the file again.": "Plik {path} nie istnieje. Sprawdź jego miejsce i wybierz plik ponownie.",
+  "Could not read {path} ({error}). Close programs that use the file and try again.": "Nie udało się odczytać {path} ({error}). Zamknij programy, które używają tego pliku, i spróbuj ponownie.",
+  "{path} is not a valid CSV file ({error}). Export it again as CSV.": "{path} nie jest poprawnym plikiem CSV ({error}). Wyeksportuj go jeszcze raz jako CSV.",
+  "{path} is empty or has no header row. The first row must name the columns.": "{path} jest pusty albo nie ma wiersza nagłówka. Pierwszy wiersz musi zawierać nazwy kolumn.",
+  "Unknown field {name}. Fields: {fields}.": "Nieznane pole {name}. Pola: {fields}.",
+  "Column {column} is not in this file. Pick one of: {columns}.": "W tym pliku nie ma kolumny {column}. Wybierz jedną z: {columns}.",
+  "Could not find the column with track titles. Pick it by hand. Columns in this file: {columns}.": "Nie udało się znaleźć kolumny z tytułami utworów. Wskaż ją ręcznie. Kolumny w tym pliku: {columns}.",
+  "Unknown length unit {unit}. Use one of: {units}.": "Nieznana jednostka długości {unit}. Użyj jednej z: {units}.",
+  "This Apple Music link is not an album, a playlist or a song: {text}. Open the album, playlist or song in Apple Music, use Share > Copy Link and paste it again.": "Ten link Apple Music nie prowadzi do albumu, playlisty ani utworu: {text}. Otwórz album, playlistę albo utwór w Apple Music, użyj Udostępnij > Kopiuj łącze i wklej go ponownie.",
+  "This YouTube link is not a playlist or a video: {text}. Open the playlist or the video, use Share > Copy and paste it again. Channels cannot be added.": "Ten link YouTube nie prowadzi do playlisty ani filmu: {text}. Otwórz playlistę albo film, użyj Udostępnij > Kopiuj i wklej go ponownie. Kanałów nie da się dodać.",
+  "This SoundCloud link is not a set (playlist) or a track: {text}. Open the set or the track, use Share > Copy link and paste it again. Profiles cannot be added.": "Ten link SoundCloud nie prowadzi do setu (playlisty) ani utworu: {text}. Otwórz set albo utwór, użyj Share > Copy link i wklej go ponownie. Profili nie da się dodać.",
+  "This TIDAL link is not a playlist, an album or a track: {text}. Open the playlist, album or track in TIDAL, use Share > Copy link and paste it again.": "Ten link TIDAL nie prowadzi do playlisty, albumu ani utworu: {text}. Otwórz playlistę, album albo utwór w TIDAL, użyj Share > Copy link i wklej go ponownie.",
+  "TIDAL mixes and artist pages cannot be added: {text}. Open a playlist, an album or a track in TIDAL, use Share > Copy link and paste it again.": "Miksów TIDAL i stron wykonawców nie da się dodać: {text}. Otwórz playlistę, album albo utwór w TIDAL, użyj Share > Copy link i wklej go ponownie.",
+  "This is not a link NeonSeek can read: {text}. Paste a link to a playlist, album or track from Spotify, Apple Music, YouTube, SoundCloud or TIDAL.": "Tego linku NeonSeek nie umie odczytać: {text}. Wklej link do playlisty, albumu albo utworu ze Spotify, Apple Music, YouTube, SoundCloud albo TIDAL.",
+  "Reading your Spotify playlists...": "Czytam Twoje playlisty Spotify...",
+  "Syncing {name}...": "Synchronizuję {name}...",
+  "Spotify does not share the tracks of this playlist. Copy its tracks into your own playlist in Spotify, or import them from a CSV file.": "Spotify nie udostępnia utworów tej playlisty. Skopiuj jej utwory do własnej playlisty w Spotify albo zaimportuj je z pliku CSV.",
+  "Spotify does not share this playlist. Playlists made by Spotify itself (like Daily Mix, Discover Weekly, Release Radar or editorial playlists), private playlists of other people and deleted playlists cannot be read. Copy the tracks into your own playlist in Spotify, or import them from a CSV file.": "Spotify nie udostępnia tej playlisty. Playlist tworzonych przez samo Spotify (jak Daily Mix, Discover Weekly, Release Radar czy playlisty redakcyjne), prywatnych playlist innych osób i usuniętych playlist nie da się odczytać. Skopiuj utwory do własnej playlisty w Spotify albo zaimportuj je z pliku CSV.",
+  "Reading album tracks ({index}/{total})...": "Czytam utwory albumu ({index}/{total})...",
+  "Spotify could not find this {kind}. Check that the link is complete and that the {kind} is still available on Spotify.": "Spotify nie znalazło tego elementu ({kind}). Sprawdź, czy link jest pełny i czy to jest dalej dostępne w Spotify.",
+  "track": "utwór",
+  "This Spotify link is not a music track. Paste a link to a song instead.": "Ten link Spotify nie prowadzi do utworu muzycznego. Wklej zamiast niego link do piosenki.",
+  "TIDAL answered in a form NeonSeek cannot read, TIDAL may have changed its pages. Try again later or check for a newer version of NeonSeek. Meanwhile you can export the playlist to a CSV file and import that.": "TIDAL odpowiedział w formie, której NeonSeek nie umie odczytać, TIDAL mógł zmienić swoje strony. Spróbuj później albo sprawdź, czy jest nowsza wersja NeonSeek. Do tego czasu możesz wyeksportować playlistę do pliku CSV i go zaimportować.",
+  "TIDAL shows at most 50 tracks of a playlist or album, NeonSeek read those. The list may be longer. Split the playlist on TIDAL into playlists of up to 50 tracks, or export it to a CSV file and import that.": "TIDAL pokazuje najwyżej 50 utworów playlisty albo albumu i tyle NeonSeek wczytał. Lista może być dłuższa. Podziel playlistę w TIDAL na playlisty po najwyżej 50 utworów albo wyeksportuj ją do pliku CSV i go zaimportuj.",
+  "TIDAL could not find this {what}. Check that the link is complete. A playlist must be public, NeonSeek cannot read private ones.": "TIDAL nie znalazł tego elementu ({what}). Sprawdź, czy link jest pełny. Playlista musi być publiczna, prywatnych NeonSeek nie odczyta.",
+  "TIDAL did not answer in time. Check the internet connection and try again.": "TIDAL nie odpowiedział na czas. Sprawdź połączenie z internetem i spróbuj ponownie.",
+  "No connection to TIDAL ({error}). Check the internet connection and try again.": "Brak połączenia z TIDAL ({error}). Sprawdź połączenie z internetem i spróbuj ponownie.",
+  "TIDAL refused the request (HTTP {status}). Wait a few minutes and try again.": "TIDAL odrzucił zapytanie (HTTP {status}). Odczekaj kilka minut i spróbuj ponownie.",
+  "TIDAL has a problem right now (HTTP {status}). Try again later.": "TIDAL ma teraz problem (HTTP {status}). Spróbuj później.",
+  "Reading the album from TIDAL...": "Wczytuję album z TIDAL...",
+  "Reading the playlist from TIDAL...": "Wczytuję playlistę z TIDAL...",
+  "Reading the track from TIDAL...": "Wczytuję utwór z TIDAL...",
+  "Artist and title were taken from the titles of the uploads, so Soulseek finds fewer of these tracks than of Spotify or Apple Music ones. Check them before downloading: right-click a track and choose Edit artist and title.": "Wykonawca i tytuł pochodzą z tytułów wrzuconych nagrań, więc Soulseek znajdzie mniej tych utworów niż ze Spotify albo Apple Music. Sprawdź je przed pobieraniem: kliknij utwór prawym przyciskiem i wybierz Popraw wykonawcę i tytuł.",
+  "{service} answered in a form NeonSeek cannot read. Try again later.": "{service} odpowiedział w formie, której NeonSeek nie umie odczytać. Spróbuj później.",
+  "YouTube listed {got} of {count} entries of this playlist. Sync it later to read the rest.": "YouTube pokazał {got} z {count} pozycji tej playlisty. Zsynchronizuj ją później, żeby wczytać resztę.",
+  "Reading track details from SoundCloud...": "Wczytuję szczegóły utworów z SoundCloud...",
+  "set": "set",
+  "Reading SoundCloud tracks one by one ({done}/{total})...": "Wczytuję utwory z SoundCloud po kolei ({done}/{total})...",
+  "SoundCloud details were read track by track, which is slower. A newer version of NeonSeek may read them faster again.": "Szczegóły z SoundCloud zostały wczytane utwór po utworze, co trwa dłużej. Nowsza wersja NeonSeek może znów wczytywać je szybciej.",
+  "Reading the playlist from YouTube...": "Wczytuję playlistę z YouTube...",
+  "Reading the video from YouTube...": "Wczytuję film z YouTube...",
+  "Reading from SoundCloud...": "Wczytuję z SoundCloud...",
+  "{service} shares no title for this {what}, it may be deleted or private.": "{service} nie podaje tytułu tego elementu ({what}), może być usunięty albo prywatny.",
+  "This list has no id, NeonSeek cannot keep it.": "Ta lista nie ma identyfikatora, NeonSeek nie może jej zapisać.",
+  "Reading this link went wrong in a way NeonSeek did not expect ({error}). Try again later. If it keeps happening, copy the diagnostics from About and report it.": "Przy wczytywaniu tego linku stało się coś, czego NeonSeek się nie spodziewał ({error}). Spróbuj później. Jeśli to się powtarza, skopiuj diagnostykę z okna O programie i zgłoś problem.",
+  "This link is a single track now, not a list.": "Ten link prowadzi teraz do pojedynczego utworu, a nie do listy.",
+  "No connection to {service}. Check the internet connection and try again.": "Brak połączenia z {service}. Sprawdź połączenie z internetem i spróbuj ponownie.",
+  "{service} could not find this {what}. Check that the link is complete and that the {what} is public.": "{service} nie znalazł tego elementu ({what}). Sprawdź, czy link jest pełny i czy to jest publiczne.",
+  "{service} is limiting requests from this connection right now. Wait an hour and try again.": "{service} ogranicza teraz zapytania z tego połączenia. Odczekaj godzinę i spróbuj ponownie.",
+  "{service} does not share this {what}: it is private, blocked in your country or needs a login. Make it public or unlisted and try again.": "{service} nie udostępnia tego elementu ({what}): jest prywatny, zablokowany w Twoim kraju albo wymaga logowania. Ustaw go jako publiczny albo niepubliczny (dostęp przez link) i spróbuj ponownie.",
+  "{service} answered in a form NeonSeek cannot read ({error}). The site may have changed. Try again later or check for a newer version of NeonSeek.": "{service} odpowiedział w formie, której NeonSeek nie umie odczytać ({error}). Strona mogła się zmienić. Spróbuj później albo sprawdź, czy jest nowsza wersja NeonSeek.",
+  "video": "film",
+  "Spotify is not set up yet. Add your Spotify Client ID in Settings, or keep using CSV files without Spotify.": "Spotify nie jest jeszcze skonfigurowane. Wpisz swój Spotify Client ID w Ustawieniach albo dalej korzystaj z plików CSV bez Spotify.",
+  "Log in to Spotify first. Spotify lists need a login.": "Najpierw zaloguj się do Spotify. Listy ze Spotify wymagają logowania.",
+  "Could not reach Spotify. Check your internet connection and try again.": "Nie udało się połączyć ze Spotify. Sprawdź połączenie z internetem i spróbuj ponownie.",
+  "Your Spotify login has expired or was revoked. Log in to Spotify again.": "Twoje logowanie do Spotify wygasło albo zostało cofnięte. Zaloguj się do Spotify ponownie.",
+  "Spotify does not accept this Client ID. Copy the Client ID from your app in the Spotify Developer Dashboard into Settings again.": "Spotify nie przyjmuje tego Client ID. Skopiuj jeszcze raz Client ID swojej aplikacji ze Spotify Developer Dashboard do Ustawień.",
+  "Spotify login failed (HTTP {status}, {error}). Try logging in again.": "Logowanie do Spotify nie udało się (HTTP {status}, {error}). Spróbuj zalogować się ponownie.",
+  "Spotify login finished. You can close this tab and go back to NeonSeek.": "Logowanie do Spotify zakończone. Możesz zamknąć tę kartę i wrócić do NeonSeek.",
+  "Spotify login was not completed. Go back to NeonSeek and try again.": "Logowanie do Spotify nie zostało dokończone. Wróć do NeonSeek i spróbuj ponownie.",
+  "Port {port} on this computer is busy, so the Spotify login cannot finish. Close other NeonSeek windows or logins in progress and try again.": "Port {port} na tym komputerze jest zajęty, więc logowanie do Spotify nie może się zakończyć. Zamknij inne okna NeonSeek albo trwające logowania i spróbuj ponownie.",
+  "Spotify login timed out. Try again. If the browser showed an error, check that the Redirect URI in your Spotify app is exactly {uri}": "Minął czas na zalogowanie do Spotify. Spróbuj ponownie. Jeśli przeglądarka pokazała błąd, sprawdź, czy Redirect URI w Twojej aplikacji Spotify to dokładnie {uri}",
+  "Spotify login was cancelled.": "Logowanie do Spotify zostało anulowane.",
+  "Spotify login was declined. Log in again and choose Agree to use Spotify.": "Logowanie do Spotify zostało odrzucone. Zaloguj się ponownie i wybierz Agree, żeby używać Spotify.",
+  "Spotify login failed ({error}). Try again.": "Logowanie do Spotify nie udało się ({error}). Spróbuj ponownie.",
+  "Spotify login answer did not match this login. Start the login again.": "Odpowiedź Spotify nie pasuje do tego logowania. Zacznij logowanie od nowa.",
+  "Spotify asks to wait {minutes} minutes before the next request. Try again later.": "Spotify prosi o {minutes} min przerwy przed kolejnym zapytaniem. Spróbuj później.",
+  "Spotify did not accept the login. Log in to Spotify again.": "Spotify nie przyjęło logowania. Zaloguj się do Spotify ponownie.",
+  "Spotify refused access ({detail}). Check that your Spotify account is added to your app in the Spotify Developer Dashboard and that it has Premium.": "Spotify odmówiło dostępu ({detail}). Sprawdź, czy Twoje konto Spotify jest dodane do Twojej aplikacji w Spotify Developer Dashboard i czy ma Premium.",
+  "Spotify could not find this item ({detail}).": "Spotify nie znalazło tego elementu ({detail}).",
+  "Spotify is limiting requests right now. Try again in a few minutes.": "Spotify ogranicza teraz zapytania. Spróbuj ponownie za kilka minut.",
+  "Spotify returned an error (HTTP {status}, {detail}). Try again later.": "Spotify zwróciło błąd (HTTP {status}, {detail}). Spróbuj później.",
+  "This is a Spotify {kind} link. NeonSeek can add playlists, albums and single tracks. Paste a link to one of those instead.": "To link Spotify do: {kind}. NeonSeek dodaje playlisty, albumy i pojedyncze utwory. Wklej link do jednego z nich.",
+  "This does not look like a Spotify link: {text}. Copy the link with Share > Copy link in Spotify and paste it again.": "To nie wygląda na link Spotify: {text}. Skopiuj link w Spotify przez Udostępnij > Kopiuj link i wklej go ponownie.",
+  "The Spotify link {text} is incomplete. Copy it again from Spotify.": "Link Spotify {text} jest niepełny. Skopiuj go ponownie ze Spotify.",
+  "Short spotify.link links are not supported. Open the link in a browser and copy the full open.spotify.com address, or use Share > Copy link in the Spotify desktop app.": "Krótkie linki spotify.link nie są obsługiwane. Otwórz link w przeglądarce i skopiuj pełny adres open.spotify.com albo użyj Udostępnij > Kopiuj link w aplikacji Spotify na komputer.",
+  "not valid toml ({error})": "niepoprawny toml ({error})",
+  "missing colors: {tokens}": "brakujące kolory: {tokens}",
+  "colors must look like #1A2B3C: {tokens}": "kolory muszą wyglądać jak #1A2B3C: {tokens}",
+  "{flag} must be true or false": "{flag} musi mieć wartość true albo false",
+  "Something went wrong inside NeonSeek. Your data is safe. In About, press COPY DIAGNOSTICS and send them to whoever helps you.\n\n{error}": "Coś poszło nie tak wewnątrz NeonSeek. Twoje dane są bezpieczne. W oknie O PROGRAMIE naciśnij KOPIUJ DIAGNOSTYKĘ i wyślij ją osobie, która Ci pomaga.\n\n{error}",
+  "About": "O programie",
+  "Downloads your track lists from Soulseek in lossless quality for rekordbox. NeonSeek runs Sockseek as a separate program and contains none of its code.": "Pobiera Twoje listy utworów z Soulseeka w jakości bezstratnej dla rekordboxa. NeonSeek uruchamia Sockseeka jako osobny program i nie zawiera żadnego jego kodu.",
+  "Checking Sockseek...": "Sprawdzam Sockseeka...",
+  "COPY DIAGNOSTICS": "KOPIUJ DIAGNOSTYKĘ",
+  "Versions, system and the end of the logs, without passwords and names, for someone helping you.": "Wersje, system i końcówka logów, bez haseł i nazw, dla osoby, która Ci pomaga.",
+  "LICENSES": "LICENCJE",
+  "Opens the full texts of all licenses.": "Otwiera pełne teksty wszystkich licencji.",
+  "CLOSE": "ZAMKNIJ",
+  "Could not open {path}. Install NeonSeek again.": "Nie udało się otworzyć {path}. Zainstaluj NeonSeek ponownie.",
+  "Diagnostics copied. Paste them into a message to whoever helps you.": "Skopiowano diagnostykę. Wklej ją do wiadomości dla osoby, która Ci pomaga.",
+  "Create a new account (recommended)": "Załóż nowe konto (zalecane)",
+  "Use my own account": "Użyj własnego konta",
+  "You choose the name. NeonSeek makes a long password and keeps it in Windows Credential Manager, you never need to type it. The first login creates the account. A separate account only for NeonSeek is best.": "Ty wybierasz nazwę. NeonSeek tworzy długie hasło i trzyma je w Menedżerze poświadczeń Windows, nigdy nie musisz go wpisywać. Pierwsze logowanie zakłada konto. Najlepiej mieć osobne konto tylko dla NeonSeek.",
+  "your Soulseek username": "Twoja nazwa użytkownika Soulseek",
+  "PASSWORD": "HASŁO",
+  "REPEAT": "POWTÓRZ",
+  "USERNAME": "NAZWA",
+  "CONNECT AND SAVE": "POŁĄCZ I ZAPISZ",
+  "TEST SAVED LOGIN": "SPRAWDŹ ZAPISANE KONTO",
+  "Saved account: \"{user}\"": "Zapisane konto: „{user}”",
+  "No Soulseek account saved yet.": "Nie ma jeszcze zapisanego konta Soulseek.",
+  "Waiting for Soulseek: {seconds} s": "Czekam na Soulseeka: {seconds} s",
+  "The two passwords are different. Type them again.": "Hasła się różnią. Wpisz je jeszcze raz.",
+  "Optional. Without Spotify you import track lists from CSV files. Spotify needs Premium on the account that creates the developer app.": "Opcjonalnie. Bez Spotify importujesz listy utworów z plików CSV. Spotify wymaga Premium na koncie, które zakłada aplikację deweloperską.",
+  "1. Create an app in the Spotify developer dashboard (Web API).": "1. Załóż aplikację w Spotify Developer Dashboard (Web API).",
+  "OPEN DASHBOARD": "OTWÓRZ DASHBOARD",
+  "2. Add this Redirect URI to the app, exactly:": "2. Dodaj w aplikacji dokładnie ten Redirect URI:",
+  "COPY": "KOPIUJ",
+  "3. Copy the Client ID of the app here and save it.": "3. Skopiuj tutaj Client ID aplikacji i zapisz go.",
+  "Client ID": "Client ID",
+  "SAVE": "ZAPISZ",
+  "LOG IN TO SPOTIFY": "ZALOGUJ DO SPOTIFY",
+  "LOG OUT": "WYLOGUJ",
+  "CANCEL LOGIN": "PRZERWIJ LOGOWANIE",
+  "Logged in to Spotify.": "Zalogowano do Spotify.",
+  "Client ID saved, not logged in yet.": "Client ID zapisany, jeszcze bez logowania.",
+  "Spotify is not set up.": "Spotify nie jest skonfigurowane.",
+  "Redirect URI copied.": "Skopiowano Redirect URI.",
+  "Spotify Client ID removed.": "Usunięto Spotify Client ID.",
+  "CSV and text files (*.csv *.tsv *.txt);;All files (*)": "Pliki CSV i tekstowe (*.csv *.tsv *.txt);;Wszystkie pliki (*)",
+  "Add": "Dodaj",
+  "Paste links to playlists, albums or tracks of Spotify, Apple Music, YouTube, SoundCloud or TIDAL, one per line. A track goes to Single tracks. Only the track list is read there, the audio comes from Soulseek. From YouTube and SoundCloud the artist and title are guessed from the upload titles, so fewer tracks are found.": "Wklej linki do playlist, albumów albo utworów ze Spotify, Apple Music, YouTube, SoundCloud albo TIDAL, po jednym w wierszu. Pojedynczy utwór trafia do Pojedynczych utworów. Z tych serwisów brana jest tylko lista utworów, dźwięk pochodzi z Soulseeka. Przy YouTube i SoundCloud wykonawca i tytuł są odgadywane z tytułów nagrań, więc znajdzie się mniej utworów.",
+  "ADD LINKS": "DODAJ LINKI",
+  "LINKS": "LINKI",
+  "A CSV file with a header row, for example exported from Exportify or Excel, or a playlist exported from iTunes or the Music app as a .txt file. Spotify is not needed. You can also drop the file on the window.": "Plik CSV z wierszem nagłówków, na przykład wyeksportowany z Exportify albo Excela, albo playlista wyeksportowana z iTunes lub aplikacji Muzyka jako plik .txt. Spotify nie jest potrzebne. Plik możesz też upuścić na okno.",
+  "CHOOSE CSV FILE": "WYBIERZ PLIK CSV",
+  "CSV FILE": "PLIK CSV",
+  "Apple Music, YouTube, SoundCloud and TIDAL links work without Spotify.": "Linki Apple Music, YouTube, SoundCloud i TIDAL działają bez Spotify.",
+  "Paste at least one link.": "Wklej przynajmniej jeden link.",
+  "Reading {count} links...": "Wczytuję linki ({count})...",
+  "Choose a CSV or .txt file": "Wybierz plik CSV albo .txt",
+  "NeonSeek is still finishing what you started here. Close the window again in a moment.": "NeonSeek jeszcze kończy pracę rozpoczętą w tym oknie. Zamknij je ponownie za chwilę.",
+  "TITLE": "TYTUŁ",
+  "ARTIST": "WYKONAWCA",
+  "ALBUM": "ALBUM",
+  "ISRC": "ISRC",
+  "SPOTIFY ID": "ID SPOTIFY",
+  "detect": "wykryj",
+  "seconds": "sekundy",
+  "milliseconds": "milisekundy",
+  "m:ss or h:mm:ss": "m:ss albo h:mm:ss",
+  "Import CSV": "Import CSV",
+  "This updates collection {id}. Its downloaded tracks stay.": "To zaktualizuje kolekcję {id}. Jej pobrane utwory zostają.",
+  "LENGTH UNIT": "JEDNOSTKA DŁUGOŚCI",
+  "COLLECTION NAME": "NAZWA KOLEKCJI",
+  "ARTISTS": "WYKONAWCY",
+  "ISRC / SPOTIFY": "ISRC / SPOTIFY",
+  "CANCEL": "ANULUJ",
+  "IMPORT": "IMPORTUJ",
+  "(not used)": "(nieużywana)",
+  "Reading the file...": "Czytam plik...",
+  "File: {encoding}, delimiter {delimiter!r}. Tracks in file: {count}.": "Plik: {encoding}, separator {delimiter!r}. Utworów w pliku: {count}.",
+  "Importing...": "Importuję...",
+  "START": "START",
+  "Edit artist and title": "Popraw wykonawcę i tytuł",
+  "NeonSeek searches Soulseek for the artist and the title. Correct them when they were guessed wrong, for example from a YouTube title. A sync keeps your names. A track that was not found is searched again.": "NeonSeek szuka w Soulseeku wykonawcy i tytułu. Popraw je, gdy zostały źle odgadnięte, na przykład z tytułu na YouTube. Synchronizacja zachowa Twoje nazwy. Utwór, którego nie znaleziono, zostanie wyszukany ponownie.",
+  "Manual": "Instrukcja",
+  "Search the manual (Ctrl+F)": "Szukaj w instrukcji (Ctrl+F)",
+  "OPEN PDF": "OTWÓRZ PDF",
+  "The same manual as a PDF, to read or print.": "Ta sama instrukcja jako PDF, do czytania albo wydruku.",
+  "‹ PREVIOUS: {title}": "‹ POPRZEDNI: {title}",
+  "NEXT: {title} ›": "NASTĘPNY: {title} ›",
+  "Nothing found. Try another word.": "Nic nie znaleziono. Spróbuj innego słowa.",
+  "Could not make the PDF of the manual ({error}).": "Nie udało się utworzyć PDF-a instrukcji ({error}).",
+  "No program for PDF files opened it. The PDF is here: {path}": "Żaden program do plików PDF go nie otworzył. PDF leży tutaj: {path}",
+  "Properties": "Właściwości",
+  "Remove collection": "Usuń kolekcję",
+  "Remove {names} from NeonSeek? Its tracks and their download state stay, files in your library stay too unless you tick the option below.": "Usunąć {names} z NeonSeek? Jej utwory i ich stan pobierania zostają, pliki w Twojej bibliotece też, chyba że zaznaczysz opcję niżej.",
+  "No downloaded file belongs only to this collection.": "Żaden pobrany plik nie należy wyłącznie do tej kolekcji.",
+  "REMOVE": "USUŃ",
+  "Report": "Raport",
+  "Tracks not found and failed, from every collection. Tracks waiting for WAV/AIFF are not lost: the next download looks for them in those formats. RETRY SELECTED downloads the selected tracks now, starting again from FLAC. Right-click a track for more.": "Nieznalezione i nieudane utwory ze wszystkich kolekcji. Utwory czekające na WAV/AIFF nie przepadły: następne pobieranie poszuka ich w tych formatach. PONÓW ZAZNACZONE od razu pobiera zaznaczone utwory, zaczynając znowu od FLAC-a. Więcej opcji pod prawym przyciskiem na utworze.",
+  "REASON": "POWÓD",
+  "COLLECTIONS": "KOLEKCJE",
+  "EXPORT CSV": "EKSPORTUJ CSV",
+  "RETRY SELECTED": "PONÓW ZAZNACZONE",
+  "Opens the chapter of the manual about the report": "Otwiera rozdział instrukcji o raporcie",
+  "Select the tracks to download again first.": "Najpierw zaznacz utwory do ponownego pobrania.",
+  "Downloads the selected tracks now, starting again from FLAC. A summary comes first.": "Od razu pobiera zaznaczone utwory, zaczynając znowu od FLAC-a. Najpierw pokaże się podsumowanie.",
+  "Save the report": "Zapisz raport",
+  "Could not save {path} ({error}). Choose another place.": "Nie udało się zapisać {path} ({error}). Wybierz inne miejsce.",
+  "Settings": "Ustawienia",
+  "LANGUAGE": "JĘZYK",
+  "The window, messages and the manual. Saved at once.": "Okno, komunikaty i instrukcja. Zapisuje się od razu.",
+  "SOULSEEK ACCOUNT": "KONTO SOULSEEK",
+  "MUSIC LIBRARY": "BIBLIOTEKA MUZYKI",
+  "BROWSE": "WYBIERZ",
+  "The library folder cannot change while a download runs.": "Folderu biblioteki nie można zmienić w trakcie pobierania.",
+  "A new folder asks whether to move the downloaded files there. Files you put into the library yourself are never moved or deleted.": "Przy nowym folderze NeonSeek zapyta, czy przenieść tam pobrane pliki. Plików włożonych do biblioteki samodzielnie nigdy nie przenosi ani nie usuwa.",
+  "SPOTIFY": "SPOTIFY",
+  "Refresh the list of my playlists when NeonSeek starts": "Odświeżaj listę moich playlist przy starcie NeonSeek",
+  "DOWNLOADS": "POBIERANIE",
+  "Without FLAC": "Bez FLAC-a",
+  "Attempts": "Próby",
+  " min": " min",
+  "Silence limit": "Limit ciszy",
+  "TAGS": "TAGI",
+  "Source fields": "Pola ze źródła",
+  "THEME": "MOTYW",
+  "Your own themes: TOML files in the themes folder of {path}.": "Własne motywy: pliki TOML w folderze themes w {path}.",
+  "TEXT SIZE": "WIELKOŚĆ TEKSTU",
+  "SOCKSEEK": "SOCKSEEK",
+  "CHECK SOCKSEEK": "SPRAWDŹ SOCKSEEKA",
+  "Music library folder": "Folder biblioteki muzyki",
+  "Starting Sockseek to read its version (no login)...": "Uruchamiam Sockseeka, żeby odczytać jego wersję (bez logowania)...",
+  "Sockseek {version} works: {path}": "Sockseek {version} działa: {path}",
+  "MOVE FILES": "PRZENIEŚ PLIKI",
+  "ONLY CHANGE THE FOLDER": "TYLKO ZMIEŃ FOLDER",
+  "HELP": "POMOC",
+  "1. Language and Soulseek account": "1. Język i konto Soulseek",
+  "NeonSeek downloads from the Soulseek network, so it needs a Soulseek account. The login is kept in Windows Credential Manager, never in a file.": "NeonSeek pobiera z sieci Soulseek, więc potrzebuje konta Soulseek. Dane logowania leżą w Menedżerze poświadczeń Windows, nigdy w pliku.",
+  "2. Music library folder": "2. Folder biblioteki muzyki",
+  "Downloaded tracks go to the tracks folder inside it, playlists for rekordbox to the playlists folder. Choose a folder on an internal drive, for example D:\\Music\\Library.": "Pobrane utwory trafiają do jego podfolderu tracks, a playlisty dla rekordboxa do podfolderu playlists. Wybierz folder na dysku wewnętrznym, na przykład D:\\Muzyka\\Biblioteka.",
+  "3. Spotify (optional)": "3. Spotify (opcjonalnie)",
+  "No Spotify? Press NEXT. You can import CSV files and set Spotify up later in Settings.": "Nie masz Spotify? Naciśnij DALEJ. Możesz importować pliki CSV, a Spotify ustawić później w Ustawieniach.",
+  "4. Colors": "4. Kolory",
+  "Pick a theme. You can change it any time in Settings.": "Wybierz motyw. Możesz go zmienić w każdej chwili w Ustawieniach.",
+  "NeonSeek - first start": "NeonSeek - pierwsze uruchomienie",
+  "Opens the chapter of the manual about this step": "Otwiera rozdział instrukcji o tym kroku",
+  "BACK": "WSTECZ",
+  "NEXT": "DALEJ",
+  "FINISH": "ZAKOŃCZ",
+  "LATER": "PÓŹNIEJ",
+  "DOWNLOAD CHECKED": "POBIERZ ZAZNACZONE",
+  "REPORT": "RAPORT",
+  "SETTINGS": "USTAWIENIA",
+  "The user manual, also as a PDF.": "Instrukcja obsługi, także jako PDF.",
+  "ABOUT": "O PROGRAMIE",
+  "SHOW": "POKAŻ",
+  "Search title, artist, album (Ctrl+F)": "Szukaj w tytule, wykonawcy, albumie (Ctrl+F)",
+  "This collection": "Ta kolekcja",
+  "Text size: {percent}%": "Wielkość tekstu: {percent}%",
+  "Data folder: {path}": "Folder danych: {path}",
+  "not chosen yet": "jeszcze nie wybrano",
+  "Music library: {path}": "Biblioteka muzyki: {path}",
+  "Refreshing the list of your Spotify playlists...": "Odświeżam listę Twoich playlist Spotify...",
+  "SYNC": "SYNCHRONIZUJ",
+  "Read your Spotify playlists and the selected collections again, also those from Apple Music, YouTube, SoundCloud and TIDAL.": "Wczytaj ponownie swoje playlisty Spotify i zaznaczone kolekcje, także te z Apple Music, YouTube, SoundCloud i TIDAL.",
+  "LOG IN": "ZALOGUJ",
+  "No tracks yet. Add a CSV file or a Spotify link with + ADD.": "Nie ma jeszcze żadnych utworów. Dodaj plik CSV albo link do Spotify przyciskiem + DODAJ.",
+  "No collections yet. Add a CSV file or a Spotify link with + ADD, or log in to Spotify.": "Nie ma jeszcze żadnych kolekcji. Dodaj plik CSV albo link do Spotify przyciskiem + DODAJ albo zaloguj się do Spotify.",
+  "Tick the checkbox next to a playlist on the left first. To download single tracks, select them in the table, right-click and choose Download these tracks only.": "Najpierw zaznacz pole wyboru przy playliście po lewej. Pojedyncze utwory pobierzesz tak: zaznacz je w tabeli, kliknij prawym przyciskiem i wybierz Pobierz tylko te utwory.",
+  "Downloads the missing tracks of the ticked collections: {names}": "Pobiera brakujące utwory zaznaczonych kolekcji: {names}",
+  "Downloading...": "Pobieram...",
+  "Ready.": "Gotowe.",
+  "Wait until this finishes: {task}": "Poczekaj, aż to się skończy: {task}",
+  "A download is already running.": "Pobieranie już trwa.",
+  "Wait until the library move ends, then download.": "Poczekaj na koniec przenoszenia biblioteki, a potem pobieraj.",
+  "Download started.": "Pobieranie rozpoczęte.",
+  "Cancelling the download...": "Anuluję pobieranie...",
+  "Stopping the library move after the current file...": "Zatrzymuję przenoszenie biblioteki po bieżącym pliku...",
+  "Waiting for the Spotify login in your browser...": "Czekam na zalogowanie do Spotify w przeglądarce...",
+  "Tick the checkbox of the playlists you want, then press SYNC again.": "Zaznacz pola wyboru przy playlistach, które chcesz, i naciśnij SYNCHRONIZUJ jeszcze raz.",
+  "Reading the collections again...": "Wczytuję kolekcje ponownie...",
+  "Download": "Pobierz",
+  "Import again": "Importuj ponownie",
+  "Import from another file...": "Importuj z innego pliku...",
+  "Open source": "Otwórz źródło",
+  "Open folder": "Otwórz folder",
+  "Remove from NeonSeek...": "Usuń z NeonSeek...",
+  "Choose the file now?": "Wybrać plik teraz?",
+  "Importing the CSV file again...": "Importuję plik CSV ponownie...",
+  "Choose the CSV file": "Wybierz plik CSV",
+  "The file is no longer at {path}. Use Import from another file.": "Pliku nie ma już w {path}. Użyj Importuj z innego pliku.",
+  "Writing tags into the downloaded files...": "Zapisuję tagi w pobranych plikach...",
+  "Moving the library: {done} / {total}": "Przenoszę bibliotekę: {done} / {total}",
+  "Moving the library...": "Przenoszę bibliotekę...",
+  "Stops the move after the current file. Nothing is lost, move again to finish.": "Zatrzymuje przenoszenie po bieżącym pliku. Nic nie przepada, przenieś ponownie, żeby dokończyć.",
+  "The file is no longer at {path}. Download the track again.": "Pliku nie ma już w {path}. Pobierz utwór ponownie.",
+  "Cancelled. Nothing was deleted.": "Anulowano. Nic nie zostało usunięte.",
+  "A download is running. Cancel it and close NeonSeek? Finished tracks are kept.": "Trwa pobieranie. Anulować je i zamknąć NeonSeek? Pobrane utwory zostają.",
+  "NeonSeek user manual": "NeonSeek - instrukcja obsługi",
+  "page {number}": "strona {number}",
+  "Contents": "Spis treści",
+  "Read the tracks of this collection again from its source.": "Wczytaj ponownie utwory tej kolekcji z jej źródła.",
+  "DOWNLOAD": "POBIERZ",
+  "Downloads the missing tracks of this collection only, checkbox or not.": "Pobiera brakujące utwory tylko tej kolekcji, niezależnie od pola wyboru.",
+  "OPEN FOLDER": "OTWÓRZ FOLDER",
+  "Shows the playlist file of this collection in Explorer.": "Pokazuje plik playlisty tej kolekcji w Eksploratorze.",
+  "empty: nothing is written": "puste: nic nie jest zapisywane",
+  "WRITE TAGS": "ZAPISZ TAGI",
+  "Writes the tags again into the downloaded files of this collection, without downloading anything.": "Zapisuje tagi ponownie w pobranych plikach tej kolekcji, niczego nie pobierając.",
+  "GENRE": "GATUNEK",
+  "COMMENT": "KOMENTARZ",
+  "Add a collection with + ADD, or choose one on the left.": "Dodaj kolekcję przyciskiem + DODAJ albo wybierz jakąś po lewej.",
+  "Show or hide the cover, genre and comment": "Pokaż albo ukryj okładkę, gatunek i komentarz",
+  "SEARCH": "WYSZUKIWANIE",
+  "Tick it for DOWNLOAD CHECKED and for SYNC.": "Zaznacz dla POBIERZ ZAZNACZONE i SYNCHRONIZUJ.",
+  "+ ADD": "+ DODAJ",
+  "Show or hide the log": "Pokaż albo ukryj log",
+  "LOG": "LOG",
+  "WAITING FOR THE SOULSEEK SEARCH LIMIT": "CZEKAM NA LIMIT WYSZUKIWAŃ SOULSEEKA",
+  "Stops the download. Finished tracks are kept, the rest waits for the next one.": "Zatrzymuje pobieranie. Pobrane utwory zostają, reszta poczeka na następne pobieranie.",
+  "Opens the chapter of the manual about this section": "Otwiera rozdział instrukcji o tej sekcji",
+  "Unexpected error: {error}. Your data is safe. Try again, and if it keeps happening, copy the diagnostics from About.": "Nieoczekiwany błąd: {error}. Twoje dane są bezpieczne. Spróbuj ponownie, a jeśli to się powtarza, skopiuj diagnostykę w oknie O programie.",
+  "{m} min {s} s": "{m} min {s} s",
+  "{m} min": "{m} min",
+  "{s} s": "{s} s",
+  "(length not checked, the source has none)": "(długość niesprawdzona, źródło jej nie podaje)",
+  "CSV": "CSV",
+  "Log in to Spotify to see your playlists and liked songs here.": "Zaloguj się do Spotify, żeby zobaczyć tu swoje playlisty i polubione utwory.",
+  "Playlists, albums and tracks of Spotify, Apple Music, YouTube, SoundCloud and TIDAL you add with + ADD.": "Playlisty, albumy i utwory ze Spotify, Apple Music, YouTube, SoundCloud i TIDAL, które dodasz przez + DODAJ.",
+  "CSV files you import with + ADD or drop on the window.": "Pliki CSV, które zaimportujesz przyciskiem + DODAJ albo upuścisz na okno.",
+  "Tracks not read yet (- downloaded). Spotify reports {count} tracks. Press SYNC to read them.": "Utwory nie są jeszcze wczytane (- pobranych). Spotify podaje liczbę utworów: {count}. Naciśnij SYNCHRONIZUJ, żeby je wczytać.",
+  "Tracks not read yet. Press SYNC to read them.": "Utwory nie są jeszcze wczytane. Naciśnij SYNCHRONIZUJ, żeby je wczytać.",
+  "Spotify liked songs": "Polubione utwory Spotify",
+  "Spotify playlist": "Playlista Spotify",
+  "Spotify playlist from a link": "Playlista Spotify z linku",
+  "Spotify album": "Album Spotify",
+  "Single tracks from links": "Pojedyncze utwory z linków",
+  "CSV file": "Plik CSV",
+  "Apple Music album": "Album Apple Music",
+  "Apple Music playlist": "Playlista Apple Music",
+  "YouTube playlist": "Playlista YouTube",
+  "SoundCloud set": "Set SoundCloud",
+  "TIDAL album": "Album TIDAL",
+  "TIDAL playlist": "Playlista TIDAL",
+  "Sync with Spotify": "Synchronizuj ze Spotify",
+  "Read again from Apple Music": "Wczytaj ponownie z Apple Music",
+  "Read again from YouTube": "Wczytaj ponownie z YouTube",
+  "Read again from SoundCloud": "Wczytaj ponownie z SoundCloud",
+  "Read again from TIDAL": "Wczytaj ponownie z TIDAL",
+  "The tracks of this playlist are not read yet. Press SYNC to read them from Spotify.": "Utwory tej playlisty nie są jeszcze wczytane. Naciśnij SYNCHRONIZUJ, żeby wczytać je ze Spotify.",
+  "This collection has no tracks.": "Ta kolekcja nie ma utworów.",
+  "not read yet": "jeszcze nie wczytano",
+  "read {time}": "wczytano {time}",
+  "failed {attempts}/{max}": "nieudany {attempts}/{max}",
+  "not downloaded": "niepobrany",
+  "searching": "wyszukiwanie",
+  "downloading": "pobieranie",
+  "done": "pobrany",
+  "failed": "nieudany",
+  "excluded": "wykluczony",
+  "Right-click it and choose Download this track only to search again from FLAC.": "Kliknij go prawym przyciskiem i wybierz Pobierz tylko ten utwór, żeby szukać znowu od FLAC-a.",
+  "Search again from FLAC with: neonseek retry {track} --download": "Szukaj znowu od FLAC-a: neonseek retry {track} --download",
+  "No FLAC was found. The next DOWNLOAD looks for WAV or AIFF.": "Nie znaleziono FLAC-a. Następne POBIERZ poszuka WAV albo AIFF.",
+  "No FLAC was found. The next download looks for WAV or AIFF: {cmd}": "Nie znaleziono FLAC-a. Następne pobieranie poszuka WAV albo AIFF: {cmd}",
+  "Not downloaded yet. No FLAC was found before, so the next download looks for WAV or AIFF.": "Jeszcze niepobrany. Wcześniej nie znaleziono FLAC-a, więc następne pobieranie poszuka WAV albo AIFF.",
+  "Not downloaded yet.": "Jeszcze niepobrany.",
+  "Press DOWNLOAD to download it.": "Naciśnij POBIERZ, żeby go pobrać.",
+  "Download it with: {cmd}": "Pobierzesz go poleceniem: {cmd}",
+  "Sockseek is searching for it on Soulseek right now.": "Sockseek właśnie go szuka w Soulseeku.",
+  "Downloading right now. CANCEL below stops the download.": "Właśnie się pobiera. ANULUJ na dole zatrzymuje pobieranie.",
+  "Downloading right now.": "Właśnie się pobiera.",
+  "Downloaded. Right-click it and choose Show in folder to see the file.": "Pobrany. Kliknij go prawym przyciskiem i wybierz Pokaż w folderze, żeby zobaczyć plik.",
+  "Downloaded. Show the file with: neonseek track folder {track}": "Pobrany. Plik pokażesz poleceniem: neonseek track folder {track}",
+  "Not found on Soulseek in any lossless format.": "Nie znaleziono w Soulseeku w żadnym formacie bezstratnym.",
+  "The download failed {count} times, NeonSeek stopped trying.": "Nieudane próby pobrania: {count}. NeonSeek przestał próbować.",
+  "The download failed. The next DOWNLOAD tries again.": "Pobieranie nie udało się. Następne POBIERZ spróbuje ponownie.",
+  "The download failed. The next download tries again: {cmd}": "Pobieranie nie udało się. Następne pobieranie spróbuje ponownie: {cmd}",
+  "Excluded: DOWNLOAD skips this track. Right-click it and choose Include again to download it later.": "Wykluczony: POBIERZ pomija ten utwór. Kliknij go prawym przyciskiem i wybierz Przywróć do pobierania, żeby pobrać go później.",
+  "Excluded: downloads skip this track. Include it again with: neonseek track include {track}": "Wykluczony: pobieranie pomija ten utwór. Przywrócisz go poleceniem: neonseek track include {track}",
+  "All": "Wszystkie",
+  "To download": "Do pobrania",
+  "Downloaded": "Pobrane",
+  "Not found or failed": "Nieznalezione albo nieudane",
+  "Excluded": "Wykluczone",
+  "Download these {count} tracks only": "Pobierz tylko te utwory ({count})",
+  "Download this track only": "Pobierz tylko ten utwór",
+  "Edit artist and title...": "Popraw wykonawcę i tytuł...",
+  "Show in folder": "Pokaż w folderze",
+  "Exclude {count} tracks from downloads": "Wyklucz z pobierania ({count})",
+  "Exclude from downloads": "Wyklucz z pobierania",
+  "Include {count} tracks again": "Przywróć do pobierania ({count})",
+  "Include again": "Przywróć do pobierania",
+  "Delete {count} files...": "Usuń pliki ({count})...",
+  "Delete file...": "Usuń plik...",
+  "A download or a library move is running. This works again when it ends.": "Trwa pobieranie albo przenoszenie biblioteki. To znowu zadziała, gdy się skończy.",
+  "Choose a track first.": "Najpierw wybierz utwór.",
+  "Only downloaded tracks have a file.": "Plik mają tylko pobrane utwory.",
+  "Already downloaded.": "Już pobrany.",
+  "A downloaded track is not excluded, use Delete file instead.": "Pobranego utworu się nie wyklucza, użyj zamiast tego Usuń plik.",
+  "Already excluded.": "Już wykluczony.",
+  "Only tracks without a file can be excluded.": "Wykluczyć można tylko utwory bez pliku.",
+  "Only excluded tracks can be included again.": "Przywrócić można tylko wykluczone utwory.",
+  "Choose one track to correct.": "Wybierz jeden utwór do poprawienia.",
+  "A downloaded track keeps its names. Delete the file first to search again.": "Pobrany utwór zachowuje swoje nazwy. Żeby wyszukać go ponownie, najpierw usuń plik.",
+  "Only tracks without a file can be corrected.": "Poprawić można tylko utwory bez pliku.",
+  "Only downloaded tracks have a file to delete.": "Plik do usunięcia mają tylko pobrane utwory.",
+  "WAV/AIFF pass": "przebieg WAV/AIFF",
+  "FLAC pass": "przebieg FLAC",
+  "Title": "Tytuł",
+  "Artists": "Wykonawcy",
+  "Album": "Album",
+  "Album artists": "Wykonawcy albumu",
+  "Release date": "Data wydania",
+  "Track number": "Numer utworu",
+  "Disc number": "Numer płyty",
+  "Length": "Długość",
+  "Explicit": "Explicit",
+  "Spotify": "Spotify",
+  "Cover": "Okładka",
+  "NeonSeek ID": "ID w NeonSeek",
+  "Collection": "Kolekcja",
+  "(none, its collections were removed)": "(brak, jego kolekcje zostały usunięte)",
+  "Status": "Status",
+  "What next": "Co dalej",
+  "Before it was excluded": "Przed wykluczeniem",
+  "Stage": "Etap",
+  "{attempts} of {max} in this stage": "{attempts} z {max} w tym etapie",
+  "Last error": "Ostatni błąd",
+  "Last change": "Ostatnia zmiana",
+  "no, the file is missing": "nie, pliku brakuje",
+  "Path": "Ścieżka",
+  "File on disk": "Plik na dysku",
+  "Format": "Format",
+  "File length": "Długość pliku",
+  "Length checked": "Długość sprawdzona",
+  "no, the source has no length": "nie, źródło nie podaje długości",
+  "Soulseek user": "Użytkownik Soulseeka",
+  "Soulseek path": "Ścieżka w Soulseeku",
+  "FROM THE SOURCE": "ZE ŹRÓDŁA",
+  "downloading {percent}%": "pobieranie {percent}%",
+  "completed": "zakończone",
+  "cancelled": "anulowane",
+  "ended with an error": "zakończone błędem",
+  "Last download {time}, {ended}. {counts}": "Ostatnie pobieranie {time}, {ended}. {counts}",
+  "Take WAV or AIFF (AIFF first)": "Weź WAV albo AIFF (najpierw AIFF)",
+  "Mark the track as not found": "Oznacz utwór jako nieznaleziony",
+  "Replace with the source data": "Zastąp danymi ze źródła",
+  "Only fill empty fields": "Uzupełnij tylko puste pola",
+  "Do not write source fields": "Nie zapisuj pól ze źródła",
+  "FLAC always comes first. This decides what happens when a track has no FLAC on Soulseek. MP3 and other lossy formats are never downloaded.": "FLAC zawsze ma pierwszeństwo. To ustawienie decyduje, co się dzieje, gdy w Soulseeku nie ma FLAC-a utworu. MP3 i inne formaty stratne nigdy nie są pobierane.",
+  "How often a failed download is tried again in later downloads before NeonSeek moves on to WAV/AIFF or gives up.": "Ile razy nieudane pobieranie jest ponawiane w kolejnych pobieraniach, zanim NeonSeek przejdzie do WAV/AIFF albo się podda.",
+  "Sockseek is stopped when it prints nothing for this long. Waiting for the search limit never counts.": "Sockseek jest zatrzymywany, gdy tak długo nic nie wypisuje. Czekanie na limit wyszukiwań się nie liczy.",
+  "Text and everything around it in the window. Also Ctrl and plus, Ctrl and minus, Ctrl+0 for 100%.": "Tekst i wszystko wokół niego w oknie. Także Ctrl i plus, Ctrl i minus, Ctrl+0 dla 100%.",
+  "Title, artists, album, date, track number and ISRC from Spotify or the CSV file. Genre and comment of a collection are always written when they are set.": "Tytuł, wykonawcy, album, data, numer utworu i ISRC ze Spotify albo z pliku CSV. Gatunek i komentarz kolekcji są zapisywane zawsze, gdy są ustawione.",
+  "Only the list of playlists, in the background, so new playlists show up unticked. Their tracks are read with SYNC. Without internet nothing happens.": "Tylko lista playlist, w tle, żeby nowe playlisty pojawiły się odznaczone. Ich utwory wczytuje SYNCHRONIZUJ. Bez internetu nic się nie dzieje."
+ },
+ "plurals": [
+  {
+   "en": [
+    "{count} downloaded file stays in {old}. To move it too, set the old folder back and run: neonseek library move \"{new}\"",
+    "{count} downloaded files stay in {old}. To move them too, set the old folder back and run: neonseek library move \"{new}\""
+   ],
+   "pl": [
+    "{count} pobrany plik zostaje w {old}. Żeby go też przenieść, ustaw z powrotem stary folder i uruchom: neonseek library move \"{new}\"",
+    "{count} pobrane pliki zostają w {old}. Żeby je też przenieść, ustaw z powrotem stary folder i uruchom: neonseek library move \"{new}\"",
+    "{count} pobranych plików zostaje w {old}. Żeby je też przenieść, ustaw z powrotem stary folder i uruchom: neonseek library move \"{new}\""
+   ]
+  },
+  {
+   "en": [
+    "Track in this download:",
+    "Tracks in this download:"
+   ],
+   "pl": [
+    "Utwór w tym pobieraniu:",
+    "Utwory w tym pobieraniu:",
+    "Utwory w tym pobieraniu:"
+   ]
+  },
+  {
+   "en": [
+    "Already downloaded, skipped: {count} track.",
+    "Already downloaded, skipped: {count} tracks."
+   ],
+   "pl": [
+    "Pominięto {count} już pobrany utwór.",
+    "Pominięto {count} już pobrane utwory.",
+    "Pominięto {count} już pobranych utworów."
+   ]
+  },
+  {
+   "en": [
+    "FLAC pass: {count} track to search. Searching alone takes up to {time} (Soulseek allows {limit} searches per {window} s).",
+    "FLAC pass: {count} tracks to search. Searching alone takes up to {time} (Soulseek allows {limit} searches per {window} s)."
+   ],
+   "pl": [
+    "Przebieg FLAC: {count} utwór do wyszukania. Samo wyszukiwanie potrwa najwyżej {time} (limit wyszukiwań Soulseeka: {limit} na {window} s).",
+    "Przebieg FLAC: {count} utwory do wyszukania. Samo wyszukiwanie potrwa najwyżej {time} (limit wyszukiwań Soulseeka: {limit} na {window} s).",
+    "Przebieg FLAC: {count} utworów do wyszukania. Samo wyszukiwanie potrwa najwyżej {time} (limit wyszukiwań Soulseeka: {limit} na {window} s)."
+   ]
+  },
+  {
+   "en": [
+    "Waiting for the WAV/AIFF pass already: {count} track.",
+    "Waiting for the WAV/AIFF pass already: {count} tracks."
+   ],
+   "pl": [
+    "Na przebieg WAV/AIFF już czeka {count} utwór.",
+    "Na przebieg WAV/AIFF już czekają {count} utwory.",
+    "Na przebieg WAV/AIFF już czeka {count} utworów."
+   ]
+  },
+  {
+   "en": [
+    "Pass {number} ({kind}): {count} track",
+    "Pass {number} ({kind}): {count} tracks"
+   ],
+   "pl": [
+    "Przebieg {number} ({kind}): {count} utwór",
+    "Przebieg {number} ({kind}): {count} utwory",
+    "Przebieg {number} ({kind}): {count} utworów"
+   ]
+  },
+  {
+   "en": [
+    "{count} track starts again from FLAC at the next download.",
+    "{count} tracks start again from FLAC at the next download."
+   ],
+   "pl": [
+    "{count} utwór zacznie znowu od FLAC-a przy następnym pobieraniu.",
+    "{count} utwory zaczną znowu od FLAC-a przy następnym pobieraniu.",
+    "{count} utworów zacznie znowu od FLAC-a przy następnym pobieraniu."
+   ]
+  },
+  {
+   "en": [
+    "{count} track in the report",
+    "{count} tracks in the report"
+   ],
+   "pl": [
+    "{count} utwór w raporcie",
+    "{count} utwory w raporcie",
+    "{count} utworów w raporcie"
+   ]
+  },
+  {
+   "en": [
+    "Saved {count} track to {path}",
+    "Saved {count} tracks to {path}"
+   ],
+   "pl": [
+    "Zapisano {count} utwór do {path}",
+    "Zapisano {count} utwory do {path}",
+    "Zapisano {count} utworów do {path}"
+   ]
+  },
+  {
+   "en": [
+    "Excluded {count} track from downloads.",
+    "Excluded {count} tracks from downloads."
+   ],
+   "pl": [
+    "Wykluczono z pobierania {count} utwór.",
+    "Wykluczono z pobierania {count} utwory.",
+    "Wykluczono z pobierania {count} utworów."
+   ]
+  },
+  {
+   "en": [
+    "{count} track was not changed: only tracks without a file can be excluded.",
+    "{count} tracks were not changed: only tracks without a file can be excluded."
+   ],
+   "pl": [
+    "{count} utwór bez zmian: wykluczyć można tylko utwory bez pliku.",
+    "{count} utwory bez zmian: wykluczyć można tylko utwory bez pliku.",
+    "{count} utworów bez zmian: wykluczyć można tylko utwory bez pliku."
+   ]
+  },
+  {
+   "en": [
+    "Included {count} track again. The next download takes it as before.",
+    "Included {count} tracks again. The next download takes them as before."
+   ],
+   "pl": [
+    "Przywrócono do pobierania {count} utwór. Następne pobieranie weźmie go tak jak wcześniej.",
+    "Przywrócono do pobierania {count} utwory. Następne pobieranie weźmie je tak jak wcześniej.",
+    "Przywrócono do pobierania {count} utworów. Następne pobieranie weźmie je tak jak wcześniej."
+   ]
+  },
+  {
+   "en": [
+    "{count} track was not excluded.",
+    "{count} tracks were not excluded."
+   ],
+   "pl": [
+    "{count} utwór nie był wykluczony.",
+    "{count} utwory nie były wykluczone.",
+    "{count} utworów nie było wykluczonych."
+   ]
+  },
+  {
+   "en": [
+    "Move {count} file to the Windows Recycle Bin?",
+    "Move {count} files to the Windows Recycle Bin?"
+   ],
+   "pl": [
+    "Przenieść {count} plik do Kosza Windows?",
+    "Przenieść {count} pliki do Kosza Windows?",
+    "Przenieść {count} plików do Kosza Windows?"
+   ]
+  },
+  {
+   "en": [
+    "{count} more file is already gone, its track is excluded too.",
+    "{count} more files are already gone, their tracks are excluded too."
+   ],
+   "pl": [
+    "Jeszcze {count} plik już zniknął, jego utwór też zostanie wykluczony.",
+    "Jeszcze {count} pliki już zniknęły, ich utwory też zostaną wykluczone.",
+    "Jeszcze {count} plików już zniknęło, ich utwory też zostaną wykluczone."
+   ]
+  },
+  {
+   "en": [
+    "{count} track has no downloaded file, nothing to delete.",
+    "{count} tracks have no downloaded file, nothing to delete."
+   ],
+   "pl": [
+    "{count} utwór nie ma pobranego pliku, nie ma czego usuwać.",
+    "{count} utwory nie mają pobranego pliku, nie ma czego usuwać.",
+    "{count} utworów nie ma pobranego pliku, nie ma czego usuwać."
+   ]
+  },
+  {
+   "en": [
+    "Moved {count} file to the Recycle Bin, its track is excluded now.",
+    "Moved {count} files to the Recycle Bin, their tracks are excluded now."
+   ],
+   "pl": [
+    "Przeniesiono {count} plik do Kosza, jego utwór jest teraz wykluczony.",
+    "Przeniesiono {count} pliki do Kosza, ich utwory są teraz wykluczone.",
+    "Przeniesiono {count} plików do Kosza, ich utwory są teraz wykluczone."
+   ]
+  },
+  {
+   "en": [
+    "{count} file was already gone, its track is excluded too.",
+    "{count} files were already gone, their tracks are excluded too."
+   ],
+   "pl": [
+    "{count} plik zniknął już wcześniej, jego utwór też jest wykluczony.",
+    "{count} pliki zniknęły już wcześniej, ich utwory też są wykluczone.",
+    "{count} plików zniknęło już wcześniej, ich utwory też są wykluczone."
+   ]
+  },
+  {
+   "en": [
+    "{count} file",
+    "{count} files"
+   ],
+   "pl": [
+    "{count} plik",
+    "{count} pliki",
+    "{count} plików"
+   ]
+  },
+  {
+   "en": [
+    "{count} track file",
+    "{count} track files"
+   ],
+   "pl": [
+    "{count} plik utworu",
+    "{count} pliki utworów",
+    "{count} plików utworów"
+   ]
+  },
+  {
+   "en": [
+    "{count} playlist file",
+    "{count} playlist files"
+   ],
+   "pl": [
+    "{count} plik playlisty",
+    "{count} pliki playlist",
+    "{count} plików playlist"
+   ]
+  },
+  {
+   "en": [
+    "Also move downloaded files to the Recycle Bin ({count} file)",
+    "Also move downloaded files to the Recycle Bin ({count} files)"
+   ],
+   "pl": [
+    "Przenieś też pobrane pliki do Kosza ({count} plik)",
+    "Przenieś też pobrane pliki do Kosza ({count} pliki)",
+    "Przenieś też pobrane pliki do Kosza ({count} plików)"
+   ]
+  },
+  {
+   "en": [
+    "{count} downloaded track is also in another collection, its file stays.",
+    "{count} downloaded tracks are also in other collections, their files stay."
+   ],
+   "pl": [
+    "{count} pobrany utwór jest też w innej kolekcji, jego plik zostaje.",
+    "{count} pobrane utwory są też w innych kolekcjach, ich pliki zostają.",
+    "{count} pobranych utworów jest też w innych kolekcjach, ich pliki zostają."
+   ]
+  },
+  {
+   "en": [
+    "{count} file is outside the library folder, it stays.",
+    "{count} files are outside the library folder, they stay."
+   ],
+   "pl": [
+    "{count} plik leży poza folderem biblioteki, zostaje.",
+    "{count} pliki leżą poza folderem biblioteki, zostają.",
+    "{count} plików leży poza folderem biblioteki, zostają."
+   ]
+  },
+  {
+   "en": [
+    "{count} downloaded file ({size}) moves, then the playlists.",
+    "{count} downloaded files ({size}) move, then the playlists."
+   ],
+   "pl": [
+    "Najpierw zostanie przeniesiony {count} pobrany plik ({size}), potem playlisty.",
+    "Najpierw zostaną przeniesione {count} pobrane pliki ({size}), potem playlisty.",
+    "Najpierw zostanie przeniesionych {count} pobranych plików ({size}), potem playlisty."
+   ]
+  },
+  {
+   "en": [
+    "{count} file is outside the current library folder, it stays where it is.",
+    "{count} files are outside the current library folder, they stay where they are."
+   ],
+   "pl": [
+    "{count} plik leży poza obecnym folderem biblioteki, zostaje tam, gdzie jest.",
+    "{count} pliki leżą poza obecnym folderem biblioteki, zostają tam, gdzie są.",
+    "{count} plików leży poza obecnym folderem biblioteki, zostają tam, gdzie są."
+   ]
+  },
+  {
+   "en": [
+    "{count} downloaded file is already missing, nothing to move for it.",
+    "{count} downloaded files are already missing, nothing to move for them."
+   ],
+   "pl": [
+    "Brakuje już {count} pobranego pliku, nie ma czego przenosić.",
+    "Brakuje już {count} pobranych plików, nie ma czego przenosić.",
+    "Brakuje już {count} pobranych plików, nie ma czego przenosić."
+   ]
+  },
+  {
+   "en": [
+    "Move {count} downloaded file to {path}?",
+    "Move {count} downloaded files to {path}?"
+   ],
+   "pl": [
+    "Przenieść {count} pobrany plik do {path}?",
+    "Przenieść {count} pobrane pliki do {path}?",
+    "Przenieść {count} pobranych plików do {path}?"
+   ]
+  },
+  {
+   "en": [
+    "Finished {count} file of an interrupted move first.",
+    "Finished {count} files of an interrupted move first."
+   ],
+   "pl": [
+    "Najpierw dokończono przerwane przenoszenie: {count} plik.",
+    "Najpierw dokończono przerwane przenoszenie: {count} pliki.",
+    "Najpierw dokończono przerwane przenoszenie: {count} plików."
+   ]
+  },
+  {
+   "en": [
+    "{count} entry of this list could not be read and was left out.",
+    "{count} entries of this list could not be read and were left out."
+   ],
+   "pl": [
+    "{count} pozycja tej listy nie dała się odczytać i została pominięta.",
+    "{count} pozycje tej listy nie dały się odczytać i zostały pominięte.",
+    "{count} pozycji tej listy nie dało się odczytać i zostały pominięte."
+   ]
+  },
+  {
+   "en": [
+    "{count} video of this list was left out, NeonSeek reads only tracks.",
+    "{count} videos of this list were left out, NeonSeek reads only tracks."
+   ],
+   "pl": [
+    "{count} teledysk z tej listy został pominięty, NeonSeek czyta tylko utwory.",
+    "{count} teledyski z tej listy zostały pominięte, NeonSeek czyta tylko utwory.",
+    "{count} teledysków z tej listy zostało pominiętych, NeonSeek czyta tylko utwory."
+   ]
+  },
+  {
+   "en": [
+    "{count} entry is longer than 20 minutes, probably a mix or a whole set. Soulseek rarely has those as one file, exclude it if you do not need it.",
+    "{count} entries are longer than 20 minutes, probably mixes or whole sets. Soulseek rarely has those as one file, exclude them if you do not need them."
+   ],
+   "pl": [
+    "{count} pozycja trwa ponad 20 minut, to pewnie miks albo cały set. Soulseek rzadko ma takie nagrania w jednym pliku, wyklucz ją, jeśli jej nie potrzebujesz.",
+    "{count} pozycje trwają ponad 20 minut, to pewnie miksy albo całe sety. Soulseek rzadko ma takie nagrania w jednym pliku, wyklucz je, jeśli ich nie potrzebujesz.",
+    "{count} pozycji trwa ponad 20 minut, to pewnie miksy albo całe sety. Soulseek rzadko ma takie nagrania w jednym pliku, wyklucz je, jeśli ich nie potrzebujesz."
+   ]
+  },
+  {
+   "en": [
+    "{count} video of this playlist is unavailable (deleted or private) and was left out.",
+    "{count} videos of this playlist are unavailable (deleted or private) and were left out."
+   ],
+   "pl": [
+    "{count} film z tej playlisty jest niedostępny (usunięty albo prywatny) i został pominięty.",
+    "{count} filmy z tej playlisty są niedostępne (usunięte albo prywatne) i zostały pominięte.",
+    "{count} filmów z tej playlisty jest niedostępnych (usuniętych albo prywatnych) i zostały pominięte."
+   ]
+  },
+  {
+   "en": [
+    "{count} track of this set could not be read (removed, private or blocked in your country) and was left out.",
+    "{count} tracks of this set could not be read (removed, private or blocked in your country) and were left out."
+   ],
+   "pl": [
+    "{count} utworu z tego setu nie udało się wczytać (usunięty, prywatny albo zablokowany w Twoim kraju), został pominięty.",
+    "{count} utworów z tego setu nie udało się wczytać (usunięte, prywatne albo zablokowane w Twoim kraju), zostały pominięte.",
+    "{count} utworów z tego setu nie udało się wczytać (usunięte, prywatne albo zablokowane w Twoim kraju), zostały pominięte."
+   ]
+  },
+  {
+   "en": [
+    "{count} chapter with hits",
+    "{count} chapters with hits"
+   ],
+   "pl": [
+    "{count} rozdział z trafieniami",
+    "{count} rozdziały z trafieniami",
+    "{count} rozdziałów z trafieniami"
+   ]
+  },
+  {
+   "en": [
+    "{count} track of an interrupted download waits again.",
+    "{count} tracks of an interrupted download wait again."
+   ],
+   "pl": [
+    "{count} utwór z przerwanego pobierania znowu czeka.",
+    "{count} utwory z przerwanego pobierania znowu czekają.",
+    "{count} utworów z przerwanego pobierania znowu czeka."
+   ]
+  },
+  {
+   "en": [
+    "Finished {count} file of an interrupted library move.",
+    "Finished {count} files of an interrupted library move."
+   ],
+   "pl": [
+    "Dokończono przerwane przenoszenie biblioteki: {count} plik.",
+    "Dokończono przerwane przenoszenie biblioteki: {count} pliki.",
+    "Dokończono przerwane przenoszenie biblioteki: {count} plików."
+   ]
+  },
+  {
+   "en": [
+    "{shown} of {total} track",
+    "{shown} of {total} tracks"
+   ],
+   "pl": [
+    "{shown} z {total} utworu",
+    "{shown} z {total} utworów",
+    "{shown} z {total} utworów"
+   ]
+  },
+  {
+   "en": [
+    "{done} of {total} track downloaded",
+    "{done} of {total} tracks downloaded"
+   ],
+   "pl": [
+    "Pobrano {done} z {total} utworu",
+    "Pobrano {done} z {total} utworów",
+    "Pobrano {done} z {total} utworów"
+   ]
+  },
+  {
+   "en": [
+    "{count} more is excluded",
+    "{count} more are excluded"
+   ],
+   "pl": [
+    "jeszcze {count} wykluczony",
+    "jeszcze {count} wykluczone",
+    "jeszcze {count} wykluczonych"
+   ]
+  },
+  {
+   "en": [
+    "{count} done",
+    "{count} done"
+   ],
+   "pl": [
+    "{count} pobrany",
+    "{count} pobrane",
+    "{count} pobranych"
+   ]
+  },
+  {
+   "en": [
+    "{count} waiting for WAV/AIFF",
+    "{count} waiting for WAV/AIFF"
+   ],
+   "pl": [
+    "{count} czeka na WAV/AIFF",
+    "{count} czekają na WAV/AIFF",
+    "{count} czeka na WAV/AIFF"
+   ]
+  },
+  {
+   "en": [
+    "{count} not found",
+    "{count} not found"
+   ],
+   "pl": [
+    "{count} nieznaleziony",
+    "{count} nieznalezione",
+    "{count} nieznalezionych"
+   ]
+  },
+  {
+   "en": [
+    "{count} failed",
+    "{count} failed"
+   ],
+   "pl": [
+    "{count} nieudany",
+    "{count} nieudane",
+    "{count} nieudanych"
+   ]
+  },
+  {
+   "en": [
+    "{count} downloading",
+    "{count} downloading"
+   ],
+   "pl": [
+    "{count} w trakcie pobierania",
+    "{count} w trakcie pobierania",
+    "{count} w trakcie pobierania"
+   ]
+  },
+  {
+   "en": [
+    "{count} searching",
+    "{count} searching"
+   ],
+   "pl": [
+    "{count} w trakcie wyszukiwania",
+    "{count} w trakcie wyszukiwania",
+    "{count} w trakcie wyszukiwania"
+   ]
+  },
+  {
+   "en": [
+    "{count} not downloaded",
+    "{count} not downloaded"
+   ],
+   "pl": [
+    "{count} niepobrany",
+    "{count} niepobrane",
+    "{count} niepobranych"
+   ]
+  },
+  {
+   "en": [
+    "{count} excluded",
+    "{count} excluded"
+   ],
+   "pl": [
+    "{count} wykluczony",
+    "{count} wykluczone",
+    "{count} wykluczonych"
+   ]
+  },
+  {
+   "en": [
+    "{count} track",
+    "{count} tracks"
+   ],
+   "pl": [
+    "{count} utwór",
+    "{count} utwory",
+    "{count} utworów"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{"type":"track_list","timestamp":"2026-10-07T16:02:59.8514224Z","data":{"total":2,"pending":2,"existing":0,"notFound":0,"tracks":[{"index":0,"artist":"Nobody","title":"Line one\r\nline two","album":"X","length":10,"lifecycleState":"Pending","activityPhase":"None","terminalOutcome":"None","skipReason":"None"},{"index":1,"artist":"Beta Artist","title":"Second Song","album":"Second Album","length":50,"lifecycleState":"Pending","activityPhase":"None","terminalOutcome":"None","skipReason":"None"}]}}
+  Nobody - Line one
+line two (10s)
+  Beta Artist - Second Song (50s)
+{"type":"search_start","timestamp":"2026-10-07T16:02:59.9191209Z","data":{"artist":"Nobody","title":"Line one\r\nline two","album":"X"}}
+{"type":"search_start","timestamp":"2026-10-07T16:02:59.9292374Z","data":{"artist":"Beta Artist","title":"Second Song","album":"Second Album"}}
+{"type":"download_start","timestamp":"2026-10-07T16:02:59.9463275Z","data":{"artist":"Beta Artist","title":"Second Song","username":"local","filename":"Beta Artist\\Second Album\\02 - Second Song.wav","size":8820078,"extension":"wav"}}
+{"type":"track_state","timestamp":"2026-10-07T16:02:59.9380792Z","data":{"artist":"Nobody","title":"Line one\r\nline two","lifecycleState":"Terminal","activityPhase":"None","terminalOutcome":"Failed","skipReason":"None","failureReason":"NoSearchResults","rawResultCount":0,"lockedCount":0}}
+{"type":"download_progress","timestamp":"2026-10-07T16:02:59.9596050Z","data":{"jobId":"4fa75507-0e31-4ffe-ba80-4a3811336306","bytesTransferred":0,"totalBytes":8820078,"percent":0}}
+{"type":"track_state","timestamp":"2026-10-07T16:02:59.9887368Z","data":{"artist":"Beta Artist","title":"Second Song","lifecycleState":"Terminal","activityPhase":"None","terminalOutcome":"Succeeded","skipReason":"None","downloadPath":"<WORK>\\out\\rows\\4.wav","username":"local","filename":"Beta Artist\\Second Album\\02 - Second Song.wav","size":8820078,"bitRate":1411,"extension":"wav","rawResultCount":1,"lockedCount":0}}

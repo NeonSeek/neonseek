@@ -1,0 +1,92 @@
+{
+  "request": {
+    "path": "/tracks/0NeonFxTrk000000000004",
+    "params": {}
+  },
+  "status": 200,
+  "body": {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000001"
+          },
+          "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000001",
+          "id": "0NeonFxArt000000000001",
+          "name": "Fixture Artist 01",
+          "type": "artist",
+          "uri": "spotify:artist:0NeonFxArt000000000001"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/0NeonFxAlb000000000001"
+      },
+      "href": "https://api.spotify.com/v1/albums/0NeonFxAlb000000000001",
+      "id": "0NeonFxAlb000000000001",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273000000000000000000000001",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02000000000000000000000002",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851000000000000000000000003",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "is_playable": true,
+      "name": "Album Gęślą 01",
+      "release_date": "2021-05-10",
+      "release_date_precision": "day",
+      "total_tracks": 10,
+      "type": "album",
+      "uri": "spotify:album:0NeonFxAlb000000000001"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000001"
+        },
+        "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000001",
+        "id": "0NeonFxArt000000000001",
+        "name": "Fixture Artist 01",
+        "type": "artist",
+        "uri": "spotify:artist:0NeonFxArt000000000001"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000002"
+        },
+        "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000002",
+        "id": "0NeonFxArt000000000002",
+        "name": "Fixture Artist 02",
+        "type": "artist",
+        "uri": "spotify:artist:0NeonFxArt000000000002"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 209318,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "QZNFX2600018"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/0NeonFxTrk000000000004"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0NeonFxTrk000000000004",
+    "id": "0NeonFxTrk000000000004",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Utwór Jaźń 03",
+    "track_number": 4,
+    "type": "track",
+    "uri": "spotify:track:0NeonFxTrk000000000004"
+  }
+}

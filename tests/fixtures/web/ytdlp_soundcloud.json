@@ -1,0 +1,175 @@
+{
+ "_comment": "made by scripts/make_web_fixtures.py from soundcloud_api.json with yt-dlp 2026.08.19. what FakeExtractor answers for soundcloud.",
+ "set": {
+  "album": "Fixture Set",
+  "album_artist": "Fixture Uploader",
+  "album_type": "playlist",
+  "uploader": "Fixture Uploader",
+  "uploader_id": "800000001",
+  "uploader_url": "https://soundcloud.com/fixture-uploader",
+  "timestamp": 1643796000,
+  "release_timestamp": 1643796000,
+  "modified_timestamp": 1643796300,
+  "duration": 1081.5,
+  "license": "all-rights-reserved",
+  "like_count": 1,
+  "repost_count": 0,
+  "thumbnails": [
+   {
+    "id": "mini",
+    "url": "https://i1.sndcdn.com/avatars-fixture000000-mini.jpg",
+    "width": 16,
+    "height": 16
+   },
+   {
+    "id": "tiny",
+    "url": "https://i1.sndcdn.com/avatars-fixture000000-tiny.jpg",
+    "width": 18,
+    "height": 18
+   },
+   {
+    "id": "small",
+    "url": "https://i1.sndcdn.com/avatars-fixture000000-small.jpg",
+    "width": 32,
+    "height": 32
+   },
+   {
+    "id": "badge",
+    "url": "https://i1.sndcdn.com/avatars-fixture000000-badge.jpg",
+    "width": 47,
+    "height": 47
+   },
+   {
+    "id": "t67x67",
+    "url": "https://i1.sndcdn.com/avatars-fixture000000-t67x67.jpg",
+    "width": 67,
+    "height": 67
+   },
+   {
+    "id": "large",
+    "url": "https://i1.sndcdn.com/avatars-fixture000000-large.jpg",
+    "width": 100,
+    "height": 100
+   },
+   {
+    "id": "t300x300",
+    "url": "https://i1.sndcdn.com/avatars-fixture000000-t300x300.jpg",
+    "width": 300,
+    "height": 300
+   },
+   {
+    "id": "crop",
+    "url": "https://i1.sndcdn.com/avatars-fixture000000-crop.jpg",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "id": "t500x500",
+    "url": "https://i1.sndcdn.com/avatars-fixture000000-t500x500.jpg",
+    "width": 500,
+    "height": 500
+   },
+   {
+    "id": "original",
+    "url": "https://i1.sndcdn.com/avatars-fixture000000-original.png",
+    "preference": 10
+   }
+  ],
+  "id": "900000001",
+  "title": "Fixture Set",
+  "description": "",
+  "_type": "playlist",
+  "entries": [
+   {
+    "album": "Fixture Set",
+    "album_artist": "Fixture Uploader",
+    "album_type": "playlist",
+    "ie_key": "Soundcloud",
+    "id": "900000011",
+    "_type": "url_transparent",
+    "url": "https://soundcloud.com/fixture-label/night-drive-fixture-remix"
+   },
+   {
+    "album": "Fixture Set",
+    "album_artist": "Fixture Uploader",
+    "album_type": "playlist",
+    "ie_key": "Soundcloud",
+    "id": "900000012",
+    "_type": "url_transparent",
+    "url": "https://api-v2.soundcloud.com/tracks/900000012"
+   },
+   {
+    "album": "Fixture Set",
+    "album_artist": "Fixture Uploader",
+    "album_type": "playlist",
+    "ie_key": "Soundcloud",
+    "id": "900000013",
+    "_type": "url_transparent",
+    "url": "https://api-v2.soundcloud.com/tracks/900000013"
+   }
+  ],
+  "webpage_url": "https://soundcloud.com/fixture-uploader/sets/fixture-set",
+  "original_url": "https://soundcloud.com/fixture-uploader/sets/fixture-set",
+  "webpage_url_basename": "fixture-set",
+  "webpage_url_domain": "soundcloud.com",
+  "extractor": "soundcloud:set",
+  "extractor_key": "SoundcloudSet"
+ },
+ "tracks": {
+  "900000011": {
+   "uploader": "Fixture Label",
+   "uploader_id": "800000002",
+   "uploader_url": "https://soundcloud.com/fixture-label",
+   "timestamp": 1569924000,
+   "title": "Neon Fixture Artist - Night Drive (Fixture Remix)",
+   "track": "Neon Fixture Artist - Night Drive (Fixture Remix)",
+   "description": "",
+   "duration": 301.5,
+   "webpage_url": "https://soundcloud.com/fixture-label/night-drive-fixture-remix",
+   "license": "all-rights-reserved",
+   "view_count": 1234,
+   "like_count": 56,
+   "comment_count": 7,
+   "repost_count": 8,
+   "release_timestamp": 1570147200,
+   "modified_timestamp": 1570010400,
+   "genres": [
+    "Techno"
+   ],
+   "tags": [
+    "techno",
+    "fixture remix"
+   ],
+   "artists": [
+    "Neon Fixture Artist"
+   ],
+   "id": "900000011",
+   "thumbnails": null,
+   "formats": null,
+   "cover_url": "https://i1.sndcdn.com/artworks-fixture0011-t500x500.jpg",
+   "isrc": "XX0000000011",
+   "album": null
+  },
+  "900000012": {
+   "uploader": "Fixture Producer",
+   "uploader_id": "800000003",
+   "uploader_url": "https://soundcloud.com/fixture-producer",
+   "timestamp": 1583056800,
+   "title": "Deep Water",
+   "track": "Deep Water",
+   "description": "",
+   "duration": 280.0,
+   "webpage_url": "https://soundcloud.com/fixture-producer/deep-water",
+   "license": "all-rights-reserved",
+   "view_count": 99,
+   "like_count": 1,
+   "modified_timestamp": 1583056800,
+   "id": "900000012",
+   "thumbnails": null,
+   "formats": null,
+   "cover_url": null,
+   "isrc": null,
+   "album": null
+  }
+ }
+}

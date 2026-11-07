@@ -1,0 +1,152 @@
+{
+  "request": {
+    "path": "/albums/0NeonFxAlb000000000002",
+    "params": {}
+  },
+  "status": 200,
+  "body": {
+    "album_type": "single",
+    "total_tracks": 1,
+    "available_markets": [
+      "AR",
+      "AU"
+    ],
+    "external_urls": {
+      "spotify": "https://open.spotify.com/album/0NeonFxAlb000000000002"
+    },
+    "href": "https://api.spotify.com/v1/albums/0NeonFxAlb000000000002",
+    "id": "0NeonFxAlb000000000002",
+    "images": [
+      {
+        "url": "https://i.scdn.co/image/ab67616d0000b273000000000000000000000004",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00001e02000000000000000000000005",
+        "height": 300,
+        "width": 300
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616d00004851000000000000000000000006",
+        "height": 64,
+        "width": 64
+      }
+    ],
+    "name": "Fixture Album 02",
+    "release_date": "2024-02-28",
+    "release_date_precision": "day",
+    "type": "album",
+    "uri": "spotify:album:0NeonFxAlb000000000002",
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000003"
+        },
+        "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000003",
+        "id": "0NeonFxArt000000000003",
+        "name": "Fixture Artist 03",
+        "type": "artist",
+        "uri": "spotify:artist:0NeonFxArt000000000003"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000004"
+        },
+        "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000004",
+        "id": "0NeonFxArt000000000004",
+        "name": "Fixture Artist 04",
+        "type": "artist",
+        "uri": "spotify:artist:0NeonFxArt000000000004"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000005"
+        },
+        "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000005",
+        "id": "0NeonFxArt000000000005",
+        "name": "Fixture Artist 05",
+        "type": "artist",
+        "uri": "spotify:artist:0NeonFxArt000000000005"
+      }
+    ],
+    "tracks": {
+      "href": "https://api.spotify.com/v1/albums/0NeonFxAlb000000000002/tracks?offset=0&limit=50",
+      "limit": 50,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total": 1,
+      "items": [
+        {
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000003"
+              },
+              "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000003",
+              "id": "0NeonFxArt000000000003",
+              "name": "Fixture Artist 03",
+              "type": "artist",
+              "uri": "spotify:artist:0NeonFxArt000000000003"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000004"
+              },
+              "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000004",
+              "id": "0NeonFxArt000000000004",
+              "name": "Fixture Artist 04",
+              "type": "artist",
+              "uri": "spotify:artist:0NeonFxArt000000000004"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0NeonFxArt000000000005"
+              },
+              "href": "https://api.spotify.com/v1/artists/0NeonFxArt000000000005",
+              "id": "0NeonFxArt000000000005",
+              "name": "Fixture Artist 05",
+              "type": "artist",
+              "uri": "spotify:artist:0NeonFxArt000000000005"
+            }
+          ],
+          "available_markets": [
+            "AR",
+            "AU"
+          ],
+          "disc_number": 1,
+          "duration_ms": 274925,
+          "explicit": false,
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/0NeonFxTrk000000000011"
+          },
+          "href": "https://api.spotify.com/v1/tracks/0NeonFxTrk000000000011",
+          "id": "0NeonFxTrk000000000011",
+          "name": "Fixture Album 02",
+          "preview_url": null,
+          "track_number": 1,
+          "type": "track",
+          "uri": "spotify:track:0NeonFxTrk000000000011",
+          "is_local": false
+        }
+      ]
+    },
+    "copyrights": [
+      {
+        "text": "© 2024 Fixture Records",
+        "type": "C"
+      },
+      {
+        "text": "℗ 2024 Fixture Records",
+        "type": "P"
+      }
+    ],
+    "external_ids": {
+      "upc": "0000000000002"
+    },
+    "genres": [],
+    "label": "Fixture Records",
+    "popularity": 46
+  }
+}

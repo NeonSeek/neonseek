@@ -1,0 +1,91 @@
+{
+  "request": {
+    "path": "/me/playlists",
+    "params": {
+      "limit": "50"
+    }
+  },
+  "status": 200,
+  "body": {
+    "href": "https://api.spotify.com/v1/me/playlists?offset=0&limit=50",
+    "limit": 50,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 2,
+    "items": [
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/0NeonFixturePlaylist01"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0NeonFixturePlaylist01",
+        "id": "0NeonFixturePlaylist01",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/fixture",
+            "width": 640
+          }
+        ],
+        "name": "Own Playlist 1",
+        "owner": {
+          "display_name": "Test User",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/neonseek-test-user"
+          },
+          "href": "https://api.spotify.com/v1/users/neonseek-test-user",
+          "id": "neonseek-test-user",
+          "type": "user",
+          "uri": "spotify:user:neonseek-test-user"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "AAAANeonFixtureSnapshot010000000",
+        "items": {
+          "href": "https://api.spotify.com/v1/playlists/0NeonFixturePlaylist01/items",
+          "total": 5
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0NeonFixturePlaylist01"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/0NeonFixturePlaylist02"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0NeonFixturePlaylist02",
+        "id": "0NeonFixturePlaylist02",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/fixture",
+            "width": 640
+          }
+        ],
+        "name": "Followed Playlist 2",
+        "owner": {
+          "display_name": "Other User 1",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/other-user-1"
+          },
+          "href": "https://api.spotify.com/v1/users/other-user-1",
+          "id": "other-user-1",
+          "type": "user",
+          "uri": "spotify:user:other-user-1"
+        },
+        "primary_color": null,
+        "public": true,
+        "snapshot_id": "AAAANeonFixtureSnapshot020000000",
+        "items": {
+          "href": "https://api.spotify.com/v1/playlists/0NeonFixturePlaylist02/items",
+          "total": 45
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0NeonFixturePlaylist02"
+      }
+    ]
+  }
+}

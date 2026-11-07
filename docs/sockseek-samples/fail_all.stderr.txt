@@ -1,0 +1,14 @@
+[cli] Starting CLI session in local mode
+[soulseek] Using local files Soulseek client.
+[soulseek] Reading tags from mock files dir, this may take a while. Use --mock-files-no-read-tags if tags are not needed.
+[001] ExtractJob: CSV: Input: <WORK>\csv\one.csv
+[001] ExtractJob: CSV: Using columns: artist:"Artist", album:"Album", title:"Title", length:"Length".
+[002] Job List: running: one
+[003] SongJob: searching: Alpha Artist - First Song
+[003] SongJob: downloading: Alpha Artist - First Song: local\Alpha Artist\First Album\01 - First Song.flac
+[003] SongJob: downloading: Alpha Artist - First Song: local\Alpha Artist\First Album\01 - First Song.wav
+[003] SongJob: failed [All downloads failed]: Alpha Artist - First Song
+    Error: Simulated mock download failure for local\Alpha Artist\First Album\01 - First Song.wav
+[002] Job List: failed [Child jobs failed]: one
+    Error: One or more child jobs failed.
+[cli] Completed: 0 succeeded, 1 failed.
